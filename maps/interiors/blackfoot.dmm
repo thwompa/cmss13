@@ -48,8 +48,8 @@
 /obj/structure/bed/chair/vehicle/blackfoot/top_right_top,
 /obj/structure/bed/chair/vehicle/blackfoot/top_right_bottom,
 /obj/effect/landmark/interior/spawn/blackfoot_rear_door_button{
-	pixel_x = 4;
-	pixel_y = 25
+	pixel_x = 3;
+	pixel_y = -24
 	},
 /turf/open/void/vehicle,
 /area/interior/vehicle/blackfoot)
@@ -59,8 +59,8 @@
 /obj/effect/landmark/interior/spawn/chimera_loader{
 	icon_state = "chimera-ammo-interior-right";
 	icon = 'icons/obj/vehicles/blackfoot_peripherals.dmi';
-	pixel_y = 20;
-	pixel_x = 8
+	pixel_y = -23;
+	pixel_x = -2
 	},
 /turf/open/void/vehicle,
 /area/interior/vehicle/blackfoot)
