@@ -594,6 +594,9 @@
 "acl" = (
 /obj/structure/filingcabinet,
 /obj/effect/landmark/objective_landmark/medium,
+/obj/structure/sign/calendar{
+	pixel_y = 30
+	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/marshal_office)
 "acm" = (
@@ -1334,8 +1337,11 @@
 /turf/open/floor/plating,
 /area/bigredv2/caves/lambda/xenobiology)
 "afe" = (
-/turf/open/floor/hybrisa/tile/asteroidwarning_bigtile/west,
-/area/bigredv2/outside/nw)
+/obj/structure/sign/calendar/wy{
+	pixel_y = 30
+	},
+/turf/open/floor/wood,
+/area/bigredv2/caves/lambda/breakroom)
 "aff" = (
 /obj/effect/decal/cleanable/mucus,
 /obj/structure/surface/table,
@@ -1347,9 +1353,11 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/space_port)
 "afh" = (
-/obj/structure/machinery/transformer,
-/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
-/area/bigredv2/outside/nw)
+/obj/structure/sign/calendar{
+	pixel_y = 30
+	},
+/turf/open/floor/dark,
+/area/bigredv2/outside/telecomm)
 "afi" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Marshal Office Isolation"
@@ -1388,10 +1396,18 @@
 /turf/open/floor/vault2/west,
 /area/bigredv2/outside/marshal_office)
 "afo" = (
-/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
-/area/bigredv2/outside/nw)
+/obj/effect/landmark/spycam_start,
+/turf/open/mars_cave/mars_dirt_4,
+/area/bigredv2/outside/space_port_lz2)
 "afp" = (
-/turf/open/floor/asteroidwarning/east,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/obj/effect/landmark/spycam_start,
+/turf/open/floor/asteroidwarning/west,
+/area/bigredv2/outside/space_port)
+"afq" = (
+/turf/open/floor/hybrisa/tile/asteroidwarning_bigtile/west,
 /area/bigredv2/outside/nw)
 "afr" = (
 /obj/structure/machinery/camera/autoname{
@@ -1497,6 +1513,10 @@
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/dark,
 /area/bigredv2/outside/telecomm)
+"afK" = (
+/obj/structure/machinery/transformer,
+/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
+/area/bigredv2/outside/nw)
 "afL" = (
 /obj/structure/showcase{
 	icon_state = "broadcaster_send";
@@ -1507,6 +1527,9 @@
 "afM" = (
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/outside/space_port)
+"afN" = (
+/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
+/area/bigredv2/outside/nw)
 "afO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/delivery,
@@ -1526,6 +1549,9 @@
 	},
 /turf/open/floor/delivery,
 /area/bigredv2/outside/marshal_office)
+"afR" = (
+/turf/open/floor/asteroidwarning/east,
+/area/bigredv2/outside/nw)
 "afS" = (
 /turf/open/floor/dark,
 /area/bigredv2/outside/marshal_office)
@@ -8149,6 +8175,9 @@
 "aLJ" = (
 /obj/structure/filingcabinet,
 /obj/effect/landmark/objective_landmark/close,
+/obj/structure/sign/calendar{
+	pixel_y = 30
+	},
 /turf/open/floor/darkyellow2/north,
 /area/bigredv2/outside/engineering)
 "aLM" = (
@@ -16129,6 +16158,9 @@
 "bzG" = (
 /obj/structure/surface/table,
 /obj/item/storage/fancy/vials/random,
+/obj/structure/sign/calendar/wy{
+	pixel_y = 30
+	},
 /turf/open/floor/darkblue2/north,
 /area/bigredv2/caves/eta/research)
 "bzH" = (
@@ -19342,9 +19374,7 @@
 /obj/structure/prop/invuln/minecart_tracks/bumper{
 	dir = 4
 	},
-/obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant"
-	},
+/obj/item/ore/uranium,
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/caves/mining)
 "dIH" = (
@@ -20779,6 +20809,9 @@
 "fhy" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8
+	},
+/obj/structure/sign/calendar/wy{
+	pixel_y = 30
 	},
 /turf/open/floor/carpet15_15/west,
 /area/bigredv2/outside/admin_building)
@@ -34987,7 +35020,6 @@
 "tQo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant";
 	pixel_x = -7;
 	pixel_y = 4
 	},
@@ -35034,18 +35066,14 @@
 /area/bigredv2/outside/c)
 "tRV" = (
 /obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant";
 	pixel_x = -8;
 	pixel_y = 9
 	},
 /obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant";
 	pixel_x = 4;
 	pixel_y = 15
 	},
-/obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant"
-	},
+/obj/item/ore/uranium,
 /turf/open/mars_cave/mars_cave_14,
 /area/bigredv2/caves/mining)
 "tSY" = (
@@ -38753,6 +38781,9 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/calendar/wy{
+	pixel_y = 30
+	},
 /turf/open/floor,
 /area/bigredv2/outside/admin_building)
 "xLd" = (
@@ -38941,18 +38972,14 @@
 /area/bigredv2/caves/lambda/research)
 "xWr" = (
 /obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant";
 	pixel_x = 4;
 	pixel_y = 15
 	},
 /obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant";
 	pixel_x = -8;
 	pixel_y = 9
 	},
-/obj/item/ore/uranium{
-	desc = "You feel fuzzy just looking at it.... it's slightly lumanesant"
-	},
+/obj/item/ore/uranium,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
 "xWz" = (
@@ -41034,7 +41061,7 @@ acA
 aas
 aas
 acQ
-ade
+afh
 ade
 ade
 aeb
@@ -46456,7 +46483,7 @@ aaT
 aap
 aav
 aaG
-aaT
+afp
 aap
 aav
 aaG
@@ -46970,7 +46997,7 @@ beP
 beP
 aSB
 tVp
-tVp
+afo
 tVp
 tVp
 bgX
@@ -48890,8 +48917,8 @@ aeI
 aeI
 aeI
 aoO
-afe
-afe
+afq
+afq
 ahQ
 aeI
 aeI
@@ -49107,8 +49134,8 @@ aeI
 aeI
 mZh
 ajy
-afo
-afh
+afN
+afK
 ahR
 aeI
 fWH
@@ -49324,8 +49351,8 @@ nzX
 aeI
 aeI
 ajy
-afo
-afo
+afN
+afN
 ahR
 aeI
 aeI
@@ -49541,8 +49568,8 @@ aeI
 aeI
 aeI
 auF
-afp
-afp
+afR
+afR
 ahT
 aeI
 aeI
@@ -76215,7 +76242,7 @@ arG
 ara
 atf
 amk
-aqc
+afe
 aqc
 ass
 aqc
