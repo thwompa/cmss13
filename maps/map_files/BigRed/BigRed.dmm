@@ -1333,6 +1333,9 @@
 /obj/structure/window/framed/solaris/reinforced,
 /turf/open/floor/plating,
 /area/bigredv2/caves/lambda/xenobiology)
+"afe" = (
+/turf/open/floor/hybrisa/tile/asteroidwarning_bigtile/west,
+/area/bigredv2/outside/nw)
 "aff" = (
 /obj/effect/decal/cleanable/mucus,
 /obj/structure/surface/table,
@@ -1343,6 +1346,10 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
 /area/bigredv2/outside/space_port)
+"afh" = (
+/obj/structure/machinery/transformer,
+/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
+/area/bigredv2/outside/nw)
 "afi" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Marshal Office Isolation"
@@ -1380,6 +1387,12 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/vault2/west,
 /area/bigredv2/outside/marshal_office)
+"afo" = (
+/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
+/area/bigredv2/outside/nw)
+"afp" = (
+/turf/open/floor/asteroidwarning/east,
+/area/bigredv2/outside/nw)
 "afr" = (
 /obj/structure/machinery/camera/autoname{
 	dir = 4
@@ -48876,10 +48889,10 @@ ahR
 aeI
 aeI
 aeI
-fWH
-aeI
-aeI
-aeI
+aoO
+afe
+afe
+ahQ
 aeI
 aeI
 ajz
@@ -49093,10 +49106,10 @@ ahR
 aeI
 aeI
 mZh
-aeI
-aeI
-aeI
-aeI
+ajy
+afo
+afh
+ahR
 aeI
 fWH
 aLZ
@@ -49310,10 +49323,10 @@ ahR
 nzX
 aeI
 aeI
-aeI
-aeI
-aeI
-aeI
+ajy
+afo
+afo
+ahR
 aeI
 aeI
 ajy
@@ -49527,10 +49540,10 @@ ahR
 aeI
 aeI
 aeI
-aeI
-aeI
-aeI
-aeI
+auF
+afp
+afp
+ahT
 aeI
 aeI
 ajy
