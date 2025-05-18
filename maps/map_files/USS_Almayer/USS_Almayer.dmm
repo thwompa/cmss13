@@ -65408,6 +65408,7 @@
 /obj/structure/dartboard{
 	pixel_y = 32
 	},
+/obj/structure/machinery/terminal,
 /turf/open/floor/plating,
 /area/almayer/maint/lower/constr)
 "uPW" = (
