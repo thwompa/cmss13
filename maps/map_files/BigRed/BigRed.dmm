@@ -21447,7 +21447,7 @@
 /area/bigredv2/caves/mining)
 "fSd" = (
 /obj/structure/flora/grass/desert/lightgrass_8,
-/turf/closed/wall/solaris/reinforced/hull,
+/turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/engineering/reactor)
 "fSg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28511,7 +28511,7 @@
 /area/bigredv2/caves/mining)
 "nul" = (
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/closed/wall/solaris/reinforced/hull,
+/turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/engineering/reactor)
 "nuq" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -30332,7 +30332,7 @@
 /area/bigredv2/caves_north)
 "pnC" = (
 /obj/structure/flora/grass/desert/lightgrass_3,
-/turf/closed/wall/solaris/reinforced/hull,
+/turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/engineering/reactor)
 "pnL" = (
 /turf/open/mars/mars_dirt_11,
@@ -50078,14 +50078,14 @@ vvU
 saX
 xAU
 agr
-agr
-agr
+uZy
+uZy
 agr
 pVv
 oWp
 agr
 nul
-agr
+uZy
 agr
 eaC
 agp
@@ -50954,7 +50954,7 @@ oWp
 frs
 frs
 xDS
-agr
+uZy
 agr
 wMM
 wMM
@@ -51162,16 +51162,16 @@ iGp
 xdc
 qmO
 enT
-agr
-agr
+uZy
+uZy
 agr
 agr
 agp
 afR
-agr
+uZy
 cUl
-agr
-agr
+uZy
+uZy
 wMM
 wMM
 vCl
@@ -58200,7 +58200,7 @@ uZy
 uZy
 uZy
 uZy
-uZy
+uJj
 uZy
 uZy
 uZy
@@ -58644,7 +58644,7 @@ ydn
 ydn
 ydn
 ydn
-epe
+qPT
 kdr
 kdr
 kdr
@@ -58861,9 +58861,9 @@ gKJ
 ydn
 ydn
 uqg
-epe
-kdr
-kdr
+qPT
+qPT
+qPT
 kdr
 kdr
 kdr

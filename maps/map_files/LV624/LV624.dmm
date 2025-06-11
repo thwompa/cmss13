@@ -1766,6 +1766,7 @@
 /area/lv624/lazarus/quartstorage/outdoors)
 "agO" = (
 /obj/item/tool/warning_cone,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/dark,
 /area/lv624/ground/jungle/north_east_jungle)
 "agP" = (
@@ -3157,8 +3158,7 @@
 /turf/open/floor/plating,
 /area/lv624/ground/jungle/central_jungle)
 "aqI" = (
-/obj/effect/landmark/corpsespawner/wygoon,
-/turf/open/floor/dark,
+/turf/closed/wall/r_wall,
 /area/lv624/lazarus/quartstorage/outdoors)
 "aqJ" = (
 /turf/closed/wall/strata_ice/jungle,
@@ -17316,6 +17316,9 @@
 "pmz" = (
 /turf/open/gm/dirt/desert2,
 /area/lv624/ground/river/east_river)
+"pmQ" = (
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/north_east_jungle)
 "pnl" = (
 /obj/structure/largecrate/random,
 /turf/open/floor/greengrid,
@@ -18924,6 +18927,10 @@
 	},
 /turf/open/floor/whiteblue/southeast,
 /area/lv624/lazarus/corporate_dome)
+"sBt" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
+/area/lv624/ground/jungle/north_east_jungle)
 "sBC" = (
 /obj/structure/fence,
 /turf/open/gm/dirtgrassborder/grassdirt_corner/south_east,
@@ -19136,6 +19143,11 @@
 "sWk" = (
 /turf/open/floor/plating/platingdmg3,
 /area/lv624/lazarus/secure_storage)
+"sWw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/dark,
+/area/lv624/ground/jungle/north_east_jungle)
 "sWy" = (
 /obj/effect/landmark/monkey_spawn,
 /turf/open/gm/grass/grass1,
@@ -21006,6 +21018,9 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/gm/dirt,
 /area/lv624/ground/caves/west_caves)
+"wNw" = (
+/turf/closed/wall/r_wall,
+/area/lv624/ground/jungle/central_jungle)
 "wNB" = (
 /obj/structure/flora/jungle/vines/light_3,
 /turf/open/floor/warning/southwest,
@@ -21134,6 +21149,9 @@
 /obj/structure/surface/rack,
 /turf/open/floor/vault,
 /area/lv624/lazarus/quartstorage)
+"wWt" = (
+/turf/closed/wall/r_wall,
+/area/lv624/lazarus/yggdrasil)
 "wWK" = (
 /obj/structure/showcase,
 /obj/structure/window/reinforced{
@@ -38766,15 +38784,15 @@ byY
 uiN
 aJr
 jGW
-afQ
-afQ
+wNw
+wNw
 gBE
 aDl
 gia
 aDl
 aft
-afQ
-afQ
+wNw
+wNw
 qDQ
 aJr
 fTf
@@ -38994,7 +39012,7 @@ byY
 uiN
 qDQ
 afQ
-afQ
+wNw
 aDl
 aDl
 agx
@@ -39002,8 +39020,8 @@ cEh
 gia
 agn
 afp
-afQ
-afQ
+wNw
+wNw
 ujd
 fTf
 byY
@@ -40143,7 +40161,7 @@ aDl
 afB
 arJ
 agK
-afA
+wWt
 rLO
 rLO
 aIL
@@ -40361,8 +40379,8 @@ aJr
 aJr
 qDQ
 aJr
-afQ
-afQ
+wNw
+wNw
 afp
 agn
 agx
@@ -40370,7 +40388,7 @@ agx
 aDl
 khj
 afp
-afQ
+wNw
 afA
 aQo
 aKB
@@ -40590,14 +40608,14 @@ aRv
 edS
 bZb
 aJr
-afQ
-afQ
+wNw
+wNw
 jTm
 aDl
 aDl
 aDl
 gdr
-afQ
+wNw
 afQ
 rLO
 aKh
@@ -40819,13 +40837,13 @@ kAg
 fhd
 aJr
 aJr
-afQ
+wNw
 afQ
 jHW
 jHW
 jHW
 afQ
-afQ
+wNw
 aJr
 aIL
 aKi
@@ -50589,13 +50607,13 @@ bit
 cpY
 cpY
 cpY
-pIC
+pmQ
 pIC
 mfK
 mfK
 mfK
 pIC
-pIC
+pmQ
 cpY
 cpY
 cpY
@@ -50816,14 +50834,14 @@ cwV
 vSG
 pba
 fuY
-pIC
-pIC
+pmQ
+pmQ
 ueZ
 ueZ
 ueZ
 ueZ
 xHt
-pIC
+pmQ
 pIC
 cpY
 cpY
@@ -51044,7 +51062,7 @@ cwV
 gTv
 vjH
 pIC
-pIC
+pmQ
 asy
 ueZ
 afs
@@ -51052,7 +51070,7 @@ ueZ
 nhU
 eBa
 wVn
-pIC
+pmQ
 pIC
 cpY
 avP
@@ -51500,7 +51518,7 @@ vjH
 uaP
 cpY
 mfK
-afs
+sWw
 ueZ
 eBa
 eBa
@@ -51727,7 +51745,7 @@ fuY
 cpY
 cpY
 cpY
-mfK
+sBt
 ueZ
 ueZ
 ueZ
@@ -52188,12 +52206,12 @@ iiU
 rIn
 aBQ
 vmv
-aqI
+asj
 asj
 agZ
 afH
 agN
-cfD
+aqI
 asz
 aqW
 aqW
@@ -52411,8 +52429,8 @@ cwV
 fuY
 fuY
 fuY
-pIC
-pIC
+pmQ
+pmQ
 wVn
 eBa
 afs
@@ -52640,15 +52658,15 @@ fuY
 fuY
 cpY
 cpY
-pIC
+pmQ
 pIC
 agY
 ueZ
 asj
 asj
 omG
-cfD
-cfD
+aqI
+aqI
 aqW
 aqW
 arI
@@ -52875,7 +52893,7 @@ mfK
 agM
 agM
 cfD
-cfD
+aqI
 aqW
 aqW
 aqW
