@@ -470,3 +470,9 @@
 	name = "Sky"
 	icon_state = "lv-626"
 	flags_area = AREA_UNWEEDABLE
+
+/area/substation
+	name = "Power Substation"
+	icon_state = "substation"
+	resin_construction_allowed = FALSE
+	allow_construction = FALSE
