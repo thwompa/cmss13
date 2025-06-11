@@ -73,9 +73,6 @@
 /obj/effect/landmark/spycam_start,
 /turf/open/floor/prison/darkyellow2/north,
 /area/fiorina/lz/near_lzI)
-"aao" = (
-/turf/open/floor/prison/cell_stripe/west,
-/area/fiorina/station/research_cells/basketball)
 "aap" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/fiorina/oob)
@@ -97,7 +94,7 @@
 /area/fiorina/station/security/wardens)
 "aat" = (
 /turf/open/floor/prison/cell_stripe/west,
-/area/fiorina/maintenance)
+/area/substation)
 "aau" = (
 /obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/bluecorner/east,
@@ -2718,9 +2715,6 @@
 /obj/item/tool/screwdriver,
 /turf/open/floor/prison,
 /area/fiorina/station/transit_hub)
-"bYr" = (
-/turf/open/floor/prison/cell_stripe/east,
-/area/fiorina/maintenance)
 "bYY" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -4244,7 +4238,7 @@
 /area/fiorina/station/research_cells/west)
 "dkb" = (
 /turf/open/floor/prison/cell_stripe/north,
-/area/fiorina/station/telecomm/lz1_cargo)
+/area/substation)
 "dkl" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -7844,7 +7838,7 @@
 /obj/structure/lattice,
 /obj/structure/machinery/transformer/lz1,
 /turf/open/floor/delivery,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "gaQ" = (
 /obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/prison,
@@ -7868,7 +7862,7 @@
 /area/fiorina/station/disco/east_disco)
 "gbs" = (
 /turf/open/floor/delivery,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "gbv" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -9291,9 +9285,6 @@
 /obj/item/stack/rods,
 /turf/open/floor/prison/whitegreen/north,
 /area/fiorina/station/medbay)
-"hiQ" = (
-/turf/open/floor/prison/cell_stripe,
-/area/fiorina/maintenance)
 "hjg" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/fiorina/station/lowsec/showers_laundry)
@@ -10598,7 +10589,7 @@
 /area/fiorina/station/lowsec/east)
 "idx" = (
 /turf/open/floor/prison/cell_stripe/east,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "idS" = (
 /obj/structure/largecrate/random,
 /turf/open/floor/prison,
@@ -10978,7 +10969,7 @@
 /area/fiorina/tumor/servers)
 "itK" = (
 /turf/open/floor/prison/darkbrownfull2,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "itN" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/fiorina/station/park)
@@ -11055,7 +11046,7 @@
 /area/fiorina/station/power_ring)
 "iwu" = (
 /turf/closed/wall/r_wall/prison,
-/area/fiorina/maintenance)
+/area/substation)
 "iwy" = (
 /obj/structure/bed/sofa/south/grey/right,
 /turf/open/floor/prison/floor_plate,
@@ -11271,8 +11262,8 @@
 /turf/open/floor/prison/yellow/southwest,
 /area/fiorina/station/lowsec)
 "iEK" = (
-/turf/closed/wall/r_wall/prison,
-/area/fiorina/station/research_cells/east)
+/turf/closed/wall/prison,
+/area/substation)
 "iES" = (
 /obj/structure/platform_decoration/metal/almayer/east,
 /obj/item/device/flashlight,
@@ -12832,11 +12823,8 @@
 /turf/open/floor/plating/prison,
 /area/fiorina/tumor/fiberbush)
 "jRh" = (
-/obj/structure/machinery/power/reactor/colony{
-	name = "Reactor Turbine"
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/fiorina/station/research_cells/basketball)
+/turf/open/floor/plating/prison,
+/area/substation)
 "jRk" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/stock_parts/matter_bin/super{
@@ -15731,7 +15719,7 @@
 /area/fiorina/tumor/servers)
 "lZx" = (
 /turf/open/floor/prison/cell_stripe,
-/area/fiorina/station/research_cells/east)
+/area/substation)
 "lZA" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname{
 	icon = 'icons/obj/structures/doors/2x1prepdoor_charlie.dmi'
@@ -18242,7 +18230,7 @@
 	name = "Reactor Turbine"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/fiorina/maintenance)
+/area/substation)
 "nUS" = (
 /obj/structure/machinery/computer3/server/rack,
 /turf/open/floor/prison/floor_plate,
@@ -19877,7 +19865,7 @@
 /area/fiorina/station/power_ring)
 "pdB" = (
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "pdN" = (
 /obj/structure/machinery/disposal,
 /obj/structure/machinery/light/double/blue{
@@ -25614,7 +25602,7 @@
 /area/fiorina/station/medbay)
 "tBP" = (
 /turf/closed/wall/r_wall/prison_unmeltable,
-/area/fiorina/station/research_cells/basketball)
+/area/substation)
 "tCm" = (
 /obj/structure/platform_decoration/metal/almayer/north,
 /turf/open/floor/prison/floor_plate,
@@ -26601,7 +26589,7 @@
 /obj/structure/flora/grass/desert/lightgrass_11,
 /obj/structure/machinery/transformer/lz1,
 /turf/open/floor/delivery,
-/area/fiorina/maintenance)
+/area/substation)
 "utl" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/west,
@@ -28871,9 +28859,6 @@
 	},
 /turf/open/space,
 /area/fiorina/oob)
-"wgm" = (
-/turf/closed/wall/r_wall/prison,
-/area/fiorina/station/research_cells/basketball)
 "wgq" = (
 /obj/effect/landmark/monkey_spawn,
 /turf/open/floor/prison/greenfull/east,
@@ -29015,9 +29000,6 @@
 	},
 /obj/structure/machinery/light/double/blue,
 /turf/open/floor/prison/darkbrown2,
-/area/fiorina/maintenance)
-"woi" = (
-/turf/open/floor/delivery,
 /area/fiorina/maintenance)
 "wou" = (
 /obj/structure/machinery/light/double/blue,
@@ -54924,16 +54906,16 @@ ubP
 ubP
 ubP
 gag
-twb
+tBP
 iwu
 iwu
-twb
-bYr
-bYr
-twb
+tBP
+idx
+idx
+tBP
 iwu
 iwu
-twb
+tBP
 oPU
 oPU
 lgS
@@ -55136,16 +55118,16 @@ gag
 gag
 gag
 ubP
-twb
+tBP
 nUJ
-gfo
-gfo
-yet
-yet
-gfo
-gfo
+pdB
+pdB
+itK
+itK
+pdB
+pdB
 nUJ
-twb
+tBP
 oPU
 oPU
 xck
@@ -55348,16 +55330,16 @@ gag
 gag
 gag
 ubP
-hiQ
-yet
-yet
-gfo
-woi
+lZx
+itK
+itK
+pdB
+gbs
 utf
-gfo
-yet
-yet
-yfK
+pdB
+itK
+itK
+dkb
 oPU
 oPU
 xUr
@@ -55560,16 +55542,16 @@ uxv
 uGY
 aME
 ubP
-hiQ
-yet
-yet
-gfo
-woi
-woi
-gfo
-yet
-yet
-yfK
+lZx
+itK
+itK
+pdB
+gbs
+gbs
+pdB
+itK
+itK
+dkb
 oPU
 oPU
 lwA
@@ -55772,16 +55754,16 @@ cME
 eLu
 gag
 ubP
-twb
+tBP
 nUJ
-gfo
-gfo
-yet
-yet
-gfo
-gfo
+pdB
+pdB
+itK
+itK
+pdB
+pdB
 nUJ
-twb
+tBP
 ubP
 ubP
 fXB
@@ -55984,16 +55966,16 @@ cME
 eLu
 gag
 ubP
-twb
+tBP
 iwu
 iwu
-twb
+tBP
 aat
 aat
-twb
+tBP
 iwu
 iwu
-twb
+tBP
 ubP
 ubP
 ubP
@@ -72006,11 +71988,11 @@ cIa
 apm
 jii
 apg
+iwu
 iEK
-cIa
-wHV
-wHV
-iEK
+jRh
+jRh
+iwu
 ixl
 ixl
 ixl
@@ -72218,12 +72200,12 @@ cIa
 nVK
 jii
 apg
-hCG
-wgm
+tBP
+iwu
 idx
 idx
 tBP
-vnr
+tBP
 ixl
 ixl
 ixl
@@ -72430,12 +72412,12 @@ cIa
 mVE
 gAD
 sJH
-iEK
-jRh
+iwu
+nUJ
 itK
 itK
-jRh
-vnr
+nUJ
+tBP
 ixl
 ixl
 ixl
@@ -72642,12 +72624,12 @@ cIa
 cIt
 qBw
 qBw
-iEK
+iwu
 pdB
 itK
 itK
 pdB
-vNq
+iwu
 vyw
 bix
 fOC
@@ -72854,12 +72836,12 @@ qBw
 fvx
 aYR
 meE
-iEK
+iwu
 pdB
 pdB
 pdB
 pdB
-vNq
+iwu
 oRg
 ovq
 ovq
@@ -73490,12 +73472,12 @@ gtr
 cIa
 cIa
 cIa
-hCG
+tBP
 pdB
 pdB
 pdB
 pdB
-vNq
+iwu
 oRg
 ovq
 uvn
@@ -73702,12 +73684,12 @@ qBw
 qBw
 jii
 kRG
-vNq
+iwu
 pdB
 itK
 itK
 pdB
-vnr
+tBP
 oRg
 ovq
 uvn
@@ -73914,12 +73896,12 @@ qBw
 qBw
 jii
 kRG
-vNq
-jRh
+iwu
+nUJ
 itK
 itK
-jRh
-vNq
+nUJ
+iwu
 oRg
 ovq
 uvn
@@ -74126,12 +74108,12 @@ qBw
 qBw
 jii
 kRG
-vNq
-wgm
-aao
-aao
-wgm
-vNq
+iwu
+iwu
+aat
+aat
+iwu
+iwu
 oRg
 ovq
 uvn
@@ -74338,12 +74320,12 @@ rkF
 qfi
 qzk
 oUg
-vNq
-vnr
-vnr
-vnr
-vnr
-vnr
+iwu
+tBP
+tBP
+tBP
+tBP
+tBP
 oRg
 ovq
 peP

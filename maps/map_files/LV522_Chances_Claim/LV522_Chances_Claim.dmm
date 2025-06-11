@@ -776,10 +776,10 @@
 "adb" = (
 /obj/structure/machinery/transformer/lz1,
 /turf/open/floor/plating/platebotc,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "adc" = (
 /turf/open/floor/plating/platebotc,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "adf" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/machinery/colony_floodlight,
@@ -793,19 +793,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "adh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "adi" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "adk" = (
 /obj/structure/surface/table/almayer,
 /obj/item/trash/plate,
@@ -857,7 +857,7 @@
 /area/lv522/atmos/east_reactor)
 "aee" = (
 /turf/closed/wall/strata_outpost,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "aef" = (
 /obj/structure/platform/metal/almayer/west,
 /obj/structure/stairs/perspective{
@@ -906,7 +906,7 @@
 "afr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "aft" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
@@ -1256,7 +1256,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/power/reactor/colony,
 /turf/open/floor/plating/platebot,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "apC" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 6;
@@ -1320,7 +1320,7 @@
 	},
 /obj/structure/platform/metal/stair_cut/platform_left,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "arN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
@@ -1405,7 +1405,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/metal/almayer/east,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "avb" = (
 /obj/item/stack/sheet/metal,
 /obj/structure/machinery/light{
@@ -2170,7 +2170,7 @@
 /obj/structure/platform_decoration/metal/almayer/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "aYD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -2288,7 +2288,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "bby" = (
 /obj/item/clothing/head/hardhat/dblue{
 	layer = 6.1;
@@ -2634,7 +2634,7 @@
 "bkY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "blW" = (
 /obj/structure/machinery/light/double,
 /obj/structure/window/reinforced{
@@ -4098,7 +4098,7 @@
 /obj/structure/platform_decoration/metal/almayer,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "chR" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
@@ -4208,7 +4208,7 @@
 	icon_state = "p_stair_full"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "clT" = (
 /obj/structure/barricade/wooden{
 	dir = 4
@@ -4334,7 +4334,7 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "cpZ" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
@@ -4879,7 +4879,7 @@
 "cFW" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "cGd" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -4892,7 +4892,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "cGG" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6175,7 +6175,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "dkh" = (
 /turf/open/floor/prison/blue/southeast,
 /area/lv522/indoors/a_block/admin)
@@ -7769,7 +7769,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "eah" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/flora/pottedplant{
@@ -8276,7 +8276,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "enB" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -9336,7 +9336,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "eUM" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -9456,7 +9456,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "eYh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -10547,7 +10547,7 @@
 "fIa" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "fIe" = (
 /obj/structure/cargo_container/kelland/left,
 /turf/open/asphalt/cement/cement12,
@@ -11066,7 +11066,7 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "fYw" = (
 /obj/structure/surface/table/almayer,
 /obj/item/reagent_container/food/snacks/sandwich{
@@ -12935,7 +12935,7 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "haf" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo,
 /obj/effect/landmark/lv624/fog_blocker/short,
@@ -13205,7 +13205,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "hgc" = (
 /obj/structure/platform_decoration/metal/almayer/west,
 /obj/effect/decal/cleanable/blood,
@@ -13473,7 +13473,7 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "hoN" = (
 /turf/open/floor/corsat/browncorner,
 /area/lv522/atmos/cargo_intake)
@@ -13559,7 +13559,7 @@
 "hsa" = (
 /obj/structure/platform/metal/almayer/east,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "hsh" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -14438,7 +14438,7 @@
 	dir = 8
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "hQU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
@@ -15136,7 +15136,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "imh" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -16181,7 +16181,7 @@
 /area/lv522/atmos/east_reactor/south)
 "iQo" = (
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "iQt" = (
 /obj/structure/cargo_container/wy/mid,
 /turf/open/floor/plating,
@@ -16682,7 +16682,7 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "jeH" = (
 /obj/structure/machinery/light,
 /obj/structure/pipes/vents/pump,
@@ -16806,7 +16806,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "jiP" = (
 /obj/structure/surface/table/almayer,
 /obj/item/facepaint/lipstick{
@@ -16904,7 +16904,7 @@
 "jlc" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "jlh" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/decal/cleanable/dirt,
@@ -17549,7 +17549,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "jBr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/squares,
@@ -18444,7 +18444,7 @@
 	},
 /obj/structure/platform/metal/almayer,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "jYK" = (
 /obj/structure/stairs/perspective{
 	dir = 6;
@@ -21824,7 +21824,7 @@
 /area/lv522/indoors/b_block/hydro)
 "lIB" = (
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "lIR" = (
 /obj/structure/prop/invuln/ice_prefab/trim{
 	dir = 8
@@ -22722,7 +22722,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "mkd" = (
 /obj/item/stack/folding_barricade,
 /obj/effect/decal/cleanable/dirt,
@@ -22986,7 +22986,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "mpI" = (
 /obj/structure/prop/server_equipment/yutani_server{
 	density = 0;
@@ -23665,7 +23665,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/metal/almayer/north,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "mIO" = (
 /obj/structure/machinery/vending/coffee,
 /obj/structure/machinery/light{
@@ -28302,7 +28302,7 @@
 	icon_state = "p_stair_full"
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "pcQ" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/weapon/twohanded/fireaxe,
@@ -28660,7 +28660,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "poM" = (
 /obj/effect/spawner/gibspawner/robot,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -29123,7 +29123,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "pCP" = (
 /obj/item/tool/hatchet,
 /turf/open/floor/prison,
@@ -31425,7 +31425,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "qJy" = (
 /obj/structure/largecrate/random,
 /turf/open/auto_turf/shale/layer1,
@@ -31909,7 +31909,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "qTu" = (
 /obj/structure/girder,
 /turf/open/floor/prison/blue/east,
@@ -33206,7 +33206,7 @@
 /area/lv522/outdoors/nw_rockies)
 "rvu" = (
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "rvv" = (
 /obj/structure/machinery/door/airlock/almayer/engineering{
 	name = "\improper Cargo Bay Storage";
@@ -34956,7 +34956,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "spM" = (
 /obj/structure/machinery/light,
 /turf/open/floor/prison/darkbrownfull2,
@@ -36246,7 +36246,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "sXm" = (
 /obj/structure/surface/table/almayer,
 /obj/item/newspaper,
@@ -36404,7 +36404,7 @@
 "tcE" = (
 /obj/structure/machinery/power/reactor/colony,
 /turf/open/floor/plating/platebot,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "tcJ" = (
 /turf/closed/shuttle/elevator{
 	dir = 9
@@ -39063,7 +39063,7 @@
 	name = "\improper Storm Shutters"
 	},
 /turf/open/floor/corsat/marked,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "urM" = (
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 8
@@ -42195,7 +42195,7 @@
 /area/lv522/indoors/a_block/corpo/glass)
 "vQO" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "vQT" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -42331,7 +42331,7 @@
 	dir = 8
 	},
 /turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "vUf" = (
 /obj/item/weapon/twohanded/folded_metal_chair,
 /obj/structure/foamed_metal,
@@ -45008,7 +45008,7 @@
 	icon_state = "p_stair_full"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "xnu" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/reagent_container/food/snacks/sliceable/bread,
@@ -45380,7 +45380,7 @@
 "xAx" = (
 /obj/structure/platform/metal/almayer/west,
 /turf/open/floor/corsat/plate,
-/area/lv522/indoors/lone_buildings/storage_blocks/south)
+/area/substation)
 "xAF" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 4

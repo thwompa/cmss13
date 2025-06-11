@@ -249,7 +249,7 @@
 /obj/structure/platform/metal/kutjevo/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abg" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
 	dir = 6
@@ -258,15 +258,15 @@
 /area/kutjevo/exterior/scrubland)
 "abh" = (
 /turf/open/floor/kutjevo/colors/orange,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abi" = (
 /turf/open/gm/river/desert/deep/covered,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abj" = (
 /obj/structure/lattice,
 /obj/structure/machinery/transformer/lz1,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abk" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -278,14 +278,14 @@
 /obj/structure/platform/metal/kutjevo,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abm" = (
 /obj/structure/flora/grass/tallgrass/desert/corner,
 /turf/open/auto_turf/sand/layer1,
 /area/kutjevo/exterior/scrubland)
 "abn" = (
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "abo" = (
 /obj/structure/platform/stone/kutjevo/east,
 /turf/open/auto_turf/sand/layer1,
@@ -818,7 +818,7 @@
 /obj/structure/platform/metal/kutjevo/north,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "aJy" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 8;
@@ -1657,7 +1657,7 @@
 /area/kutjevo/interior/colony_north)
 "cbG" = (
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "ccs" = (
 /obj/structure/machinery/landinglight/ds2/delaytwo{
 	dir = 4
@@ -2315,7 +2315,7 @@
 /obj/structure/platform/metal/kutjevo/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "cZt" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/door_control/brbutton{
@@ -3207,6 +3207,9 @@
 /obj/effect/sentry_landmark/lz_1/top_left,
 /turf/open/auto_turf/sand/layer1,
 /area/kutjevo/exterior/lz_dunes)
+"emK" = (
+/turf/open/floor/kutjevo/plate,
+/area/substation)
 "enK" = (
 /obj/structure/window{
 	dir = 1
@@ -4203,7 +4206,7 @@
 /area/kutjevo/interior/complex/med/operating)
 "fSG" = (
 /turf/closed/wall/kutjevo/colony/reinforced,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "fSK" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/handcard/aceofspades,
@@ -4447,7 +4450,7 @@
 /obj/structure/platform/metal/kutjevo,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "goa" = (
 /turf/open/floor/coagulation/icon0_0,
 /area/kutjevo/exterior/scrubland)
@@ -7258,7 +7261,7 @@
 /area/kutjevo/interior/colony_south/power2)
 "kOR" = (
 /turf/open/auto_turf/sand/layer1,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "kPa" = (
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717,
 /turf/open/floor/kutjevo/multi_tiles,
@@ -7376,6 +7379,10 @@
 /obj/structure/platform_decoration/metal/kutjevo/west,
 /turf/open/auto_turf/sand/layer1,
 /area/kutjevo/interior/colony_central)
+"kXL" = (
+/obj/structure/flora/grass/desert/lightgrass_6,
+/turf/open/floor/plating/kutjevo,
+/area/substation)
 "kYb" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/book/manual/atmospipes,
@@ -8877,7 +8884,7 @@
 /area/kutjevo/interior/colony_central)
 "nui" = (
 /turf/open/floor/kutjevo/multi_tiles,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "num" = (
 /obj/structure/platform_decoration/stone/kutjevo/east,
 /turf/open/auto_turf/sand/layer2,
@@ -9941,7 +9948,7 @@
 /area/kutjevo/interior/power_pt2_electric_boogaloo)
 "oQt" = (
 /turf/open/auto_turf/sand/layer0,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "oQz" = (
 /obj/item/storage/toolbox/electrical,
 /turf/open/floor/kutjevo/tan,
@@ -15011,7 +15018,7 @@
 "wQc" = (
 /obj/structure/flora/grass/desert/lightgrass_6,
 /turf/open/auto_turf/sand/layer1,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "wQg" = (
 /obj/structure/platform/metal/kutjevo/north,
 /obj/structure/platform/metal/kutjevo/west,
@@ -15046,7 +15053,7 @@
 	name = "Reactor Turbine"
 	},
 /turf/open/floor/kutjevo/plate,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "wTr" = (
 /obj/effect/landmark/xeno_hive_spawn,
 /obj/effect/landmark/ert_spawns/groundside_xeno,
@@ -15199,7 +15206,7 @@
 /area/kutjevo/interior/complex/Northwest_Security_Checkpoint)
 "xdM" = (
 /turf/open/auto_turf/sand/layer2,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "xed" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/accessory/storage/black_vest,
@@ -15596,7 +15603,7 @@
 /obj/structure/platform/metal/kutjevo,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
-/area/kutjevo/interior/complex/Northwest_Flight_Control)
+/area/substation)
 "xPw" = (
 /obj/structure/platform_decoration/metal/kutjevo/west,
 /turf/open/auto_turf/sand/layer0,
@@ -25489,8 +25496,8 @@ kIn
 oLs
 sYd
 cbG
-kOR
-wQc
+abn
+kXL
 cbG
 sYd
 kIn
@@ -26220,20 +26227,20 @@ cTz
 ePx
 ePx
 cTz
-dkW
+emK
 nui
 nui
-dkW
+emK
 kOR
 cbG
 kOR
 kOR
 cbG
 kOR
-dkW
+emK
 nui
 nui
-dkW
+emK
 cTz
 ePx
 pyp
@@ -26888,20 +26895,20 @@ vbA
 xkb
 cTz
 ePx
-dkW
+emK
 nui
 nui
-dkW
+emK
 cbG
 abi
 abi
 abi
 abi
 fSG
-dkW
+emK
 nui
 nui
-dkW
+emK
 cTz
 cTz
 ePx
@@ -27326,8 +27333,8 @@ bWz
 wBO
 sYd
 fSG
-xdM
-kOR
+abn
+abn
 cbG
 sYd
 kIn
@@ -27389,20 +27396,20 @@ lVO
 dWO
 ePx
 ePx
-dkW
+emK
 nui
 nui
-dkW
+emK
 cbG
 abi
 abi
 abi
 abi
 cbG
-dkW
+emK
 nui
 nui
-dkW
+emK
 cTz
 ePx
 hii
@@ -28057,20 +28064,20 @@ cTz
 cTz
 ePx
 ePx
-dkW
+emK
 nui
 nui
-dkW
+emK
 kOR
 cbG
 xdM
 kOR
 fSG
 kOR
-dkW
+emK
 nui
 nui
-dkW
+emK
 cTz
 cTz
 xJg

@@ -214,9 +214,6 @@
 /obj/item/explosive/plastic,
 /turf/open/auto_turf/ice/layer1,
 /area/shiva/exterior/cp_colony_grounds)
-"aaP" = (
-/turf/open/auto_turf/snow/layer3,
-/area/shiva/interior/caves/s_lz2)
 "aaQ" = (
 /obj/structure/prop/ice_colony/ground_wire,
 /turf/open/auto_turf/ice/layer0,
@@ -232,9 +229,8 @@
 /turf/open/auto_turf/ice/layer1,
 /area/shiva/interior/caves/right_spiders)
 "aaT" = (
-/obj/structure/prop/ice_colony/ground_wire,
-/turf/open/auto_turf/snow/layer3,
-/area/shiva/interior/caves/s_lz2)
+/turf/open/floor/shiva/bluefull/west,
+/area/substation)
 "aaV" = (
 /obj/effect/spider/stickyweb,
 /obj/effect/spider/cocoon{
@@ -1345,8 +1341,8 @@
 /turf/open/floor/shiva/yellow/west,
 /area/shiva/interior/colony/medseceng)
 "ahX" = (
-/turf/open/auto_turf/snow/layer0,
-/area/shiva/interior/aerodrome)
+/turf/open/floor/shiva/floor3,
+/area/substation)
 "ahZ" = (
 /obj/structure/surface/table{
 	dir = 4;
@@ -4051,19 +4047,10 @@
 /area/shiva/interior/colony/central)
 "aGb" = (
 /turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/caves/s_lz2)
-"aGc" = (
-/obj/structure/machinery/power/reactor/colony{
-	name = "Reactor Turbine"
-	},
-/turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/caves/cp_camp)
-"aGd" = (
-/turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/caves/cp_camp)
+/area/substation)
 "aGe" = (
 /turf/closed/wall/shiva/prefabricated/reinforced/hull,
-/area/shiva/interior/aerodrome)
+/area/substation)
 "aGf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/rods,
@@ -4117,7 +4104,7 @@
 	name = "Reactor Turbine"
 	},
 /turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/caves/s_lz2)
+/area/substation)
 "aHr" = (
 /obj/structure/cargo_container/horizontal/blue/middle,
 /obj/structure/cargo_container/horizontal/blue/top{
@@ -4158,9 +4145,6 @@
 /obj/item/stack/cable_coil,
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/aux_power)
-"aIG" = (
-/turf/open/auto_turf/snow/layer4,
-/area/shiva/interior/aerodrome)
 "aJc" = (
 /obj/structure/largecrate/random/mini/med,
 /turf/open/floor/shiva/floor3,
@@ -4172,7 +4156,7 @@
 /area/shiva/interior/valley_huts)
 "aJk" = (
 /turf/closed/wall/shiva/prefabricated/reinforced,
-/area/shiva/interior/caves/s_lz2)
+/area/substation)
 "aJn" = (
 /obj/item/frame/table,
 /turf/open/floor/shiva/wred,
@@ -8207,7 +8191,7 @@
 /area/shiva/exterior/cp_lz2)
 "eDi" = (
 /turf/open/auto_turf/ice/layer1,
-/area/shiva/interior/aerodrome)
+/area/substation)
 "eET" = (
 /turf/open/auto_turf/ice/layer0,
 /area/shiva/interior/caves/s_lz2)
@@ -10066,9 +10050,6 @@
 /obj/vehicle/train/cargo/trolley,
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/colony/research_hab)
-"gUc" = (
-/turf/open/floor/shiva/yellowfull,
-/area/shiva/interior/caves/s_lz2)
 "gVh" = (
 /obj/structure/window/framed/shiva,
 /turf/open/floor/shiva/north,
@@ -12534,7 +12515,7 @@
 /obj/structure/lattice,
 /obj/structure/machinery/transformer/lz1,
 /turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/caves/cp_camp)
+/area/substation)
 "jVx" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
@@ -14607,9 +14588,6 @@
 "mhP" = (
 /turf/open/floor/plating/plating_catwalk/shiva,
 /area/shiva/exterior/lz2_fortress)
-"mhS" = (
-/turf/open/auto_turf/ice/layer0,
-/area/shiva/interior/aerodrome)
 "mib" = (
 /turf/open/auto_turf/snow/layer3,
 /area/shiva/interior/caves/medseceng_caves)
@@ -17880,9 +17858,6 @@
 /obj/item/stack/cable_coil/cut,
 /turf/open/floor/plating/plating_catwalk/shiva,
 /area/shiva/interior/aux_power)
-"qkC" = (
-/turf/open/floor/shiva/radiator_tile,
-/area/shiva/interior/caves/s_lz2)
 "qkI" = (
 /obj/structure/machinery/landinglight/ds1/spoke,
 /turf/open/auto_turf/snow/layer0,
@@ -19135,7 +19110,7 @@
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/landmark/monkey_spawn,
 /turf/open/auto_turf/snow/layer3,
-/area/shiva/interior/caves/s_lz2)
+/area/shiva/interior/caves/cp_camp)
 "rVF" = (
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/floor3,
@@ -19194,11 +19169,6 @@
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/shiva/exterior/cp_s_research)
-"rXn" = (
-/obj/structure/lattice,
-/obj/structure/machinery/transformer/lz1,
-/turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/aerodrome)
 "rXp" = (
 /obj/structure/machinery/landinglight/ds2/delayone,
 /turf/open/floor/shiva/floor3,
@@ -20512,7 +20482,7 @@
 /area/shiva/exterior/lz1_valley)
 "tzo" = (
 /turf/open/floor/shiva/radiator_tile,
-/area/shiva/interior/aerodrome)
+/area/substation)
 "tzu" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
@@ -20589,9 +20559,6 @@
 	},
 /turf/open/auto_turf/snow/layer1,
 /area/shiva/interior/caves/cp_camp)
-"tGv" = (
-/turf/open/auto_turf/snow/layer1,
-/area/shiva/interior/aerodrome)
 "tGS" = (
 /obj/structure/machinery/landinglight/ds2/spoke,
 /turf/open/floor/shiva/multi_tiles/southeast,
@@ -22135,7 +22102,7 @@
 /area/shiva/interior/colony/central)
 "vqT" = (
 /turf/open/floor/shiva/yellowfull,
-/area/shiva/interior/caves/cp_camp)
+/area/substation)
 "vrm" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
@@ -23390,12 +23357,6 @@
 "xgc" = (
 /turf/open/auto_turf/snow/layer1,
 /area/shiva/exterior/cp_s_research)
-"xgH" = (
-/obj/structure/machinery/power/reactor/colony{
-	name = "Reactor Turbine"
-	},
-/turf/open/floor/plating/plating_catwalk/shiva,
-/area/shiva/interior/aerodrome)
 "xha" = (
 /turf/open/floor/plating,
 /area/shiva/interior/colony/central)
@@ -26793,7 +26754,7 @@ lnR
 fEU
 eET
 fEU
-puZ
+eET
 puZ
 puZ
 puZ
@@ -26955,8 +26916,8 @@ lnR
 fEU
 fEU
 eET
-puZ
-puZ
+eET
+eET
 puZ
 puZ
 eET
@@ -27442,12 +27403,12 @@ wsz
 eET
 fEU
 faA
-fEU
-bQZ
-fEU
-fEU
-bQZ
-fEU
+eDi
+aGe
+eDi
+eDi
+aGe
+eDi
 eET
 faA
 eET
@@ -27606,9 +27567,9 @@ fEU
 fEU
 aJk
 aJk
-hpc
-hpc
-bQZ
+ahX
+ahX
+aGe
 aJk
 eET
 faA
@@ -27768,8 +27729,8 @@ fEU
 fEU
 aJk
 aHd
-gUc
-gUc
+vqT
+vqT
 aHd
 aJk
 eET
@@ -27928,8 +27889,8 @@ hRQ
 eET
 eET
 fEU
-bQZ
-aGd
+aGe
+aGb
 vqT
 vqT
 aGb
@@ -27937,7 +27898,7 @@ aJk
 eET
 eET
 faA
-fEU
+wMh
 puZ
 puZ
 puZ
@@ -28090,16 +28051,16 @@ hRQ
 fEU
 fEU
 fEU
-gQJ
-fGb
-fGb
-fGb
-qkC
-bQZ
+aGe
+tzo
+tzo
+tzo
+tzo
+aGe
 eET
 fEU
-fEU
-aaP
+wMh
+tlB
 vym
 tlB
 sDd
@@ -28252,16 +28213,16 @@ uIC
 fEU
 cOq
 fEU
-jOi
+ahX
 vqT
-aGd
+aGb
 jVi
-gUc
-hpc
+vqT
+ahX
 faA
-faA
-ewa
-aaT
+aFO
+oRH
+pGi
 jmW
 ohd
 pGi
@@ -28413,16 +28374,16 @@ hpc
 fLX
 hpc
 eET
-aFO
-jOi
-vqT
-jOi
-aGd
-gUc
-hpc
-aaP
 faA
-aaP
+ahX
+vqT
+ahX
+aGb
+vqT
+ahX
+tlB
+aFO
+tlB
 rUW
 xMs
 jqo
@@ -28575,13 +28536,13 @@ hpc
 pul
 hpc
 faA
-aFO
-gQJ
-fGb
-fGb
-fGb
-fGb
-gQJ
+faA
+aGe
+tzo
+tzo
+tzo
+tzo
+aGe
 tlB
 vtz
 xAS
@@ -28737,13 +28698,13 @@ hpc
 hpc
 hpc
 faA
-wMh
-uir
-aGd
+fEU
+aJk
+aGb
 vqT
 vqT
-aGd
-gQJ
+aGb
+aGe
 tlB
 xAS
 xAS
@@ -28900,12 +28861,12 @@ fEU
 faA
 fEU
 wMh
-uir
-aGc
+aJk
+aHd
 vqT
 vqT
-aGc
-uir
+aHd
+aJk
 cos
 oRH
 oRH
@@ -29062,12 +29023,12 @@ faA
 eET
 fEU
 wMh
-uir
-gQJ
-jOi
-jOi
-uir
-gQJ
+aJk
+aGe
+ahX
+ahX
+aJk
+aGe
 tQn
 huv
 abd
@@ -29224,12 +29185,12 @@ fEU
 fEU
 faA
 aFO
-wMh
-gQJ
-wMh
-wMh
-gQJ
-wMh
+eDi
+aGe
+eDi
+eDi
+aGe
+eDi
 tQn
 tlB
 oRH
@@ -32322,12 +32283,12 @@ tlB
 hBn
 oRH
 tlB
-aIG
-dsx
-dsx
-ahX
-ahX
-dsx
+hBq
+tlB
+tlB
+aFO
+aFO
+tlB
 dsx
 dsx
 uKZ
@@ -32483,13 +32444,13 @@ swV
 tlB
 oRH
 oRH
-dsx
-eDi
-uji
+tlB
+wMh
+aJk
 eDi
 eDi
 aGe
-eDi
+wMh
 uji
 uji
 uji
@@ -32645,12 +32606,12 @@ tlB
 oRH
 tlB
 oRH
+aFO
+aJk
+aJk
 ahX
-uji
-uji
-fRg
-fRg
-uji
+ahX
+aJk
 aGe
 uji
 fRg
@@ -32807,13 +32768,13 @@ tlB
 wMh
 xAS
 aFO
-ahX
-uji
-xgH
-oYH
-oYH
-xgH
-uji
+aFO
+aJk
+aHd
+aaT
+aaT
+aHd
+aJk
 uji
 fRg
 fRg
@@ -32969,12 +32930,12 @@ xAS
 aFO
 xAS
 aFO
-ahX
+aFO
 aGe
-oCG
-oYH
-oYH
-oCG
+aGb
+aaT
+aaT
+aGb
 aGe
 fRg
 bKV
@@ -33131,7 +33092,7 @@ xAS
 aFO
 aFO
 aFO
-tGv
+xAS
 aGe
 tzo
 tzo
@@ -33293,13 +33254,13 @@ tlB
 xAS
 aFO
 aFO
+aFO
 ahX
-fRg
-oYH
-oCG
-rXn
-oYH
-fRg
+aaT
+aGb
+jVi
+aaT
+ahX
 fRg
 bKV
 bKV
@@ -33455,13 +33416,13 @@ aFO
 tlB
 xAS
 aFO
-tGv
-fRg
-oYH
-fRg
-oCG
-oYH
-fRg
+xAS
+ahX
+aaT
+ahX
+aGb
+aaT
+ahX
 fRg
 bKV
 bKV
@@ -33617,7 +33578,7 @@ wMh
 aFO
 tlB
 xAS
-dsx
+tlB
 aGe
 tzo
 tzo
@@ -33779,13 +33740,13 @@ aFO
 aFO
 aFO
 tlB
-dsx
-uji
-oCG
-oYH
-oYH
-oCG
-uji
+tlB
+aJk
+aGb
+aaT
+aaT
+aGb
+aJk
 fRg
 bKV
 bKV
@@ -33941,13 +33902,13 @@ xAS
 xAS
 aFO
 xAS
-dsx
-uji
-xgH
-oYH
-oYH
-xgH
-uji
+tlB
+aJk
+aHd
+aaT
+aaT
+aHd
+aJk
 uji
 fRg
 fRg
@@ -34103,13 +34064,13 @@ vXw
 wMh
 xAS
 aFO
-dsx
-uji
+tlB
+aJk
 aGe
-fRg
-fRg
+ahX
+ahX
 aGe
-aGe
+gQJ
 uji
 uji
 aKL
@@ -34265,13 +34226,13 @@ hPp
 pcY
 wMh
 xAS
-dsx
-dsx
+tlB
+tlB
 aGe
 eDi
 eDi
-aGe
-eDi
+gQJ
+wMh
 uji
 aLk
 bKV
@@ -34428,12 +34389,12 @@ pcY
 wMh
 xAS
 hBq
-dsx
-dsx
-mhS
-mhS
-mhS
-eDi
+tlB
+tlB
+ntJ
+ntJ
+ntJ
+wMh
 iMA
 aKQ
 bKV
