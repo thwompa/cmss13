@@ -60,6 +60,8 @@
 		list("M40 MFHS Metal Foam Grenade", floor(scale * 6), /obj/item/explosive/grenade/metal_foam, VENDOR_ITEM_REGULAR),
 		list("Plastic Explosives", floor(scale * 3), /obj/item/explosive/plastic, VENDOR_ITEM_REGULAR),
 		list("Breaching Charge", floor(scale * 2), /obj/item/explosive/plastic/breaching_charge, VENDOR_ITEM_REGULAR),
+		list("Satchel Charges", floor(scale*3), /obj/item/explosive/satchel_charge, VENDOR_ITEM_REGULAR),
+		list("Satchel Charge Box (x3 charges)", floor(scale*3), /obj/item/storage/box/explosive_mines/satchel_charges/req, VENDOR_ITEM_REGULAR),
 		list("M5510 Laser-Guided Rocket", floor(scale), /obj/item/ammo_magazine/rocket/brute, VENDOR_ITEM_REGULAR),
 
 		list("WEBBINGS", -1, null, null),
