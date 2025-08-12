@@ -18,9 +18,6 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 /turf/open_space/proc/get_projected_turf()
 	return SSmapping.get_turf_below(get_turf(src))
 
-/turf/open_space/proc/get_projected_turf()
-	return SSmapping.get_turf_below(get_turf(src))
-
 /turf/open_space/Initialize()
 	ADD_TRAIT(src, TURF_Z_TRANSPARENT_TRAIT, TRAIT_SOURCE_INHERENT)
 	return INITIALIZE_HINT_LATELOAD
