@@ -1,0 +1,79 @@
+.FlightComputer__Background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+}
+
+.FlightComputer__Gradient {
+  background: radial-gradient(#042208, #000b02);
+}
+
+.FlightComputer__Casing {
+  height: 100%;
+  border-radius: 5px;
+  border: 4px solid rgb(7, 7, 7);
+  background-color: rgb(17, 17, 17);
+  padding: 6px;
+  max-width: 700px;
+  max-height: 410px;
+}
+
+.FlightComputer__Static {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid #00e94e;
+  background:
+    linear-gradient(hsla(0, 6%, 7%, 0) 50%, hsla(0, 0%, 0%, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      hsla(0, 100%, 50%, 0.06),
+      hsla(120, 100%, 50%, 0.02),
+      hsla(240, 100%, 50%, 0.06)
+    );
+  background-size:
+    100% 2px,
+    3px 100%;
+  .FlightComputer__Screen {
+    mix-blend-mode: color-dodge;
+    background: radial-gradient(#05a11ab7, #00250786);
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 2%;
+    color: #00e94e;
+    font-family: monospace;
+  }
+}
+
+.FlightComputer__Fuel {
+  .FlightComputer__Divider {
+    border-right: 2px solid #00e94ed3;
+    padding-right: 6px;
+    margin-right: 6px;
+  }
+  .FlightComputer__Fuelnotch {
+    width: 30px;
+    margin-bottom: 14px;
+  }
+}
+
+.FlightComputer__Gradient2 {
+  overflow: inherit;
+
+  width: 100%;
+  height: 100%;
+  background-blend-mode: difference;
+  background:
+    linear-gradient(hsla(0, 6%, 7%, 0.582) 50%, hsla(0, 0%, 0%, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      hsla(0, 100%, 50%, 0.06),
+      hsla(120, 100%, 50%, 0.02),
+      hsla(240, 100%, 50%, 0.06)
+    );
+  background-size:
+    100% 2px,
+    3px 100%;
+}
