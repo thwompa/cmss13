@@ -7,7 +7,6 @@ import {
   Box,
   Button,
   ColorBox,
-  Divider,
   Flex,
   RoundGauge,
   Stack,
@@ -97,7 +96,7 @@ const CrtDisplay = (props) => {
 
   return (
     <Stack m="6px" pl="1%">
-      <Stack.Item width="55%">
+      <Stack.Item width="54%" className="FlightComputer__MainDivider">
         <FuelPanel />
       </Stack.Item>
       <Stack.Item grow>
@@ -122,7 +121,7 @@ const FuelPanel = (props) => {
             <Flex.Item grow>RIGHT</Flex.Item>
           </Flex>
 
-          <Stack mb={1} height={10.3}>
+          <Stack mb={1} height={10.3} pr={1}>
             <Stack.Item grow fontSize={0.9} mr={0}>
               <Box
                 inline
@@ -161,8 +160,8 @@ const FuelPanel = (props) => {
                 />
               </Stack.Item>
             </Stack.Item>
-            <Stack.Divider ml={2} mr={1} height={10} opacity={0.99} />
-            <Stack.Item grow fontSize={0.75}>
+            <Stack.Item className="FlightComputer__Subdivider" />
+            <Stack.Item grow fontSize={0.9}>
               <Box
                 inline
                 mb={2.5}
@@ -188,7 +187,7 @@ const FuelPanel = (props) => {
             </Stack.Item>
             <Stack.Item ml={0} mr={1}>
               <Stack.Item height={10}>
-                <ColorBox color="green" height={10} />
+                <ColorBox color="#00e94ef5" height={10} />
               </Stack.Item>
               <Stack.Item mt={-19.5} ml={0.5}>
                 <ColorBox color="darkgreen" height={9.5} width={0.5} />
@@ -196,12 +195,19 @@ const FuelPanel = (props) => {
               <Stack.Item mt={(fuel / max_fuel) * -20} minHeight="0px">
                 <ColorBox
                   height={vtol_detected ? (fuel / max_fuel) * 10 : 0}
-                  color="green"
+                  color="#00e94ef5"
                 />
               </Stack.Item>
             </Stack.Item>
           </Stack>
-          <Box bold fontSize={0.8} textAlign="center">
+          <Box
+            bold={fuel / max_fuel === 1 ? false : true}
+            fontSize={0.8}
+            textAlign="center"
+            className={
+              fuel / max_fuel === 1 ? 'FlightComputer__TextConfirm' : ''
+            }
+          >
             TANK VOLUME:{' '}
             <AnimatedNumber
               initial={0}
@@ -210,7 +216,7 @@ const FuelPanel = (props) => {
             %
           </Box>
 
-          <Box textAlign="center" bold mt={2} fontFamily="monospace">
+          <Box textAlign="center" bold mt={1.8} fontFamily="monospace">
             FUEL TANK LEVELS
           </Box>
           <Box textAlign="center" bold fontSize={0.7}>
@@ -224,9 +230,16 @@ const FuelPanel = (props) => {
             <Flex.Item grow>INPUT</Flex.Item>
           </Flex>
 
-          <Stack mb={1} height={10.3}>
-            <Stack.Item grow fontSize={0.75}>
-              <Box inline ml={-1} mb={2.5} width="30px" bold textAlign="right">
+          <Stack mb={1} height={10.3} pr={1}>
+            <Stack.Item fontSize={0.9}>
+              <Box
+                inline
+                ml={-0.5}
+                mb={2.5}
+                width="30px"
+                bold
+                textAlign="right"
+              >
                 2.8 -
               </Box>
               <Box inline className="FlightComputer__Fuelnotch" bold>
@@ -238,13 +251,13 @@ const FuelPanel = (props) => {
               <Box inline className="FlightComputer__Fuelnotch" bold>
                 0.7 -
               </Box>
-              <Box inline width="30px" bold ml={-1} textAlign="right">
+              <Box inline width="30px" bold ml={-0.5} textAlign="right">
                 0 -
               </Box>
             </Stack.Item>
             <Stack.Item ml={0}>
               <Stack.Item height={10}>
-                <ColorBox color="green" height={10} />
+                <ColorBox color="#00e94ef5" height={10} />
               </Stack.Item>
               <Stack.Item mt={-19.5} ml={0.5}>
                 <ColorBox color="darkgreen" height={9.5} width={0.5} />
@@ -252,31 +265,38 @@ const FuelPanel = (props) => {
               <Stack.Item mt={(battery / max_battery) * -20}>
                 <ColorBox
                   height={vtol_detected ? (battery / max_battery) * 10 : 0}
-                  color="green"
+                  color="#00e94ef5"
                 />
               </Stack.Item>
             </Stack.Item>
-            <Stack.Divider ml={2.5} mr={2.5} height={10} opacity={0.99} />
-            <Stack.Item grow fontSize={0.75}>
-              <Box inline ml={-2} mb={2.5} width="40px" bold>
+            <Stack.Item className="FlightComputer__Subdivider" />
+            <Stack.Item grow fontSize={0.8} mr={0.5}>
+              <Box inline ml={-0.5} mb={2.5} width="40px" bold>
                 1.2kW -
               </Box>
-              <Box inline mb={2.5} ml={-2} width="40px" bold>
+              <Box inline className="FlightComputer__Energynotch" bold>
                 0.9kW -
               </Box>
-              <Box inline mb={2.5} ml={-2} width="40px" bold>
+              <Box inline className="FlightComputer__Energynotch" bold>
                 0.6kW -
               </Box>
-              <Box inline mb={2.5} ml={-2} width="40px" bold>
+              <Box inline className="FlightComputer__Energynotch" bold>
                 0.9kW -
               </Box>
-              <Box inline mb={2.5} ml={-0.4} width="40px" bold>
+              <Box
+                inline
+                mb={2.5}
+                width="40px"
+                bold
+                textAlign="right"
+                ml={-0.6}
+              >
                 0kW -
               </Box>
             </Stack.Item>
             <Stack.Item ml={0} mr={2}>
               <Stack.Item height={10}>
-                <ColorBox color="green" height={10} />
+                <ColorBox color="#00e94ef5" height={10} />
               </Stack.Item>
               <Stack.Item mt={-19.5} ml={0.5}>
                 <ColorBox
@@ -291,7 +311,15 @@ const FuelPanel = (props) => {
               </Stack.Item>
             </Stack.Item>
           </Stack>
-          <Box bold fontSize={0.8} textAlign="center">
+          <Box
+            bold={battery / max_battery === 1 ? false : true}
+            fontSize={0.8}
+            textAlign="center"
+            width="95%"
+            className={
+              battery / max_battery === 1 ? 'FlightComputer__TextConfirm' : ''
+            }
+          >
             APROX CHARGE:{' '}
             <AnimatedNumber
               initial={0}
@@ -300,20 +328,20 @@ const FuelPanel = (props) => {
             %
           </Box>
 
-          <Box textAlign="center" bold mt={2} fontFamily="monospace">
+          <Box textAlign="center" bold ml={-1} mt={1.7} fontFamily="monospace">
             POWERCELL CHARGE
           </Box>
-          <Box textAlign="center" bold fontSize={0.7}>
+          <Box textAlign="center" bold ml={-1} fontSize={0.7}>
             {vtol_detected ? '[ 2x Li BATTERY, KWh ]' : 'NONE DETECTED'}
           </Box>
         </Stack.Item>
       </Stack>
       <Button
         align="center"
+        className="FlightComputer__FuelButton"
         icon={!vtol_detected || fueling ? 'ban' : 'tint'}
         fluid
         bold
-        color={!vtol_detected && 'transperant'}
         onClick={() =>
           act(vtol_detected ? (fueling ? 'stop' : 'start') + '_fueling' : '')
         }
@@ -327,6 +355,33 @@ const FuelPanel = (props) => {
       >
         {(!fueling ? 'BEGIN' : 'STOP') + ' FUELING AND CHARGING'}
       </Button>
+    </Box>
+  );
+};
+
+const Console = (props) => {
+  const { act, data } = useBackend<FlightComputerData>();
+  let { vtol_detected, fueling } = data;
+  return (
+    <Box height={10.75} opacity={0.99}>
+      <Box mt={1} mb={1} className="FlightComputer__HorizontalDivider" />
+      <Box bold fontFamily="monospace" fontSize={1.1}>
+        {vtol_detected ? 'Linked aircraft detected:' : 'No aircraft detected!'}
+      </Box>
+      <Box bold>{vtol_detected && '[ AD-71E BLACKFOOT ]'}</Box>
+      <Box bold fontFamily="monospace" fontSize={1.1} mt={1.3}>
+        Refuel and recharge status:
+      </Box>
+      <Box bold fontSize={1.1}>
+        {fueling ? '[ ENGAGED ]' : '[ DISENGAGED ]'}
+      </Box>
+      <Box bold fontFamily="monospace" fontSize={1.1} mt={1.3}>
+        Primary resupply systems:
+      </Box>
+      <Box bold fontSize={0.95} mb={1.3}>
+        [ SYSTEMS NOMINAL ]
+      </Box>
+      <Box className="FlightComputer__HorizontalDivider" />
     </Box>
   );
 };
@@ -367,6 +422,7 @@ const TankReadouts = (props) => {
             INT. PRESSURE
           </Box>
           <RoundGauge
+            className="FlightComputer__Readout"
             value={randomNumber(945, 950)}
             minValue={800}
             maxValue={1000}
@@ -384,6 +440,7 @@ const TankReadouts = (props) => {
             STORED FUEL
           </Box>
           <RoundGauge
+            className="FlightComputer__Readout"
             value={vtol_detected ? 35000 - fuel * 27 : 36000}
             minValue={0}
             maxValue={40000}
@@ -396,34 +453,7 @@ const TankReadouts = (props) => {
           />
         </Flex.Item>
       </Flex>
-      <Divider />
-    </Box>
-  );
-};
-
-const Console = (props) => {
-  const { act, data } = useBackend<FlightComputerData>();
-  let { vtol_detected, fueling } = data;
-  return (
-    <Box height={10.75} opacity={0.99}>
-      <Divider />
-      <Box bold fontFamily="monospace" fontSize={1.1}>
-        {vtol_detected ? 'Linked aircraft detected:' : 'No aircraft detected!'}
-      </Box>
-      <Box bold>{vtol_detected && '[ AD-71E BLACKFOOT ]'}</Box>
-      <Box bold fontFamily="monospace" fontSize={1.1} mt={1.3}>
-        Refuel and recharge status:
-      </Box>
-      <Box bold color={fueling ? 'default' : 'red'} fontSize={1.1}>
-        {fueling ? '[ ENGAGED ]' : '[ DISENGAGED ]'}
-      </Box>
-      <Box bold fontFamily="monospace" fontSize={1.1} mt={1.3}>
-        Primary resupply systems:
-      </Box>
-      <Box bold fontSize={0.95} mb={1.3}>
-        [ SYSTEMS NOMINAL ]
-      </Box>
-      <Divider />
+      <Box mb={1} className="FlightComputer__HorizontalDivider" />
     </Box>
   );
 };
