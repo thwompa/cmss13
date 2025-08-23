@@ -15,18 +15,24 @@
 	action_icon_state = "nightvision"
 
 /obj/item/hardpoint/support/recon_system/on_install(obj/vehicle/multitile/blackfoot/vehicle)
-	if(!istype(vehicle))
+	if(!vehicle)
 		return
 
 	RegisterSignal(src, COMSIG_BLACKFOOT_ACTIONS_UPDATE, PROC_REF(handle_action_update))
 
-/obj/item/hardpoint/support/recon_system/proc/handle_action_update(should_remove_action = FALSE)
+/obj/item/hardpoint/support/recon_system/on_uninstall(obj/vehicle/multitile/blackfoot/vehicle)
+	if(!vehicle)
+		return
+
+	UnregisterSignal(src, COMSIG_BLACKFOOT_ACTIONS_UPDATE)
+
+/obj/item/hardpoint/support/recon_system/proc/handle_action_update(datum/source, should_remove_action = FALSE)
 	var/obj/vehicle/multitile/blackfoot/blackfoot_owner = owner
 
 	if(!blackfoot_owner)
 		return
 
-	var/mob/user = blackfoot_owner.seats[VEHICLE_DRIVER]
+	var/mob/user = usr
 
 	if(!user)
 		return
@@ -77,6 +83,7 @@
 		interior_area.set_base_lighting(COLOR_WHITE, 255)
 
 	active = FALSE
+	blackfoot_owner.stealth_mode = FALSE
 
 /obj/item/hardpoint/support/recon_system/proc/activate()
 	set name = "Toggle Recon Mode"
@@ -98,3 +105,4 @@
 		interior_area.set_base_lighting("#BB3F3F", 200)
 
 	active = TRUE
+	blackfoot_owner.stealth_mode = TRUE

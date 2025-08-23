@@ -63,10 +63,7 @@
 	if(istype(interior.exterior, /obj/vehicle/multitile/blackfoot))
 		var/obj/vehicle/multitile/blackfoot/linked_blackfoot = interior.exterior
 		loader.linked_blackfoot = linked_blackfoot
-		var/area/interior_area = get_area(loader)
-		linked_blackfoot.interior_area = interior_area
-		interior_area.set_base_lighting(COLOR_WHITE, 255)	// setting this in on_load allows it to be edited
-
+		linked_blackfoot.interior_area = get_area(loader)
 
 	qdel(src)
 

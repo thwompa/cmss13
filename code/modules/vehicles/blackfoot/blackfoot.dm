@@ -370,7 +370,8 @@
 	give_action(M, /datum/action/human_action/blackfoot/toggle_nvg)
 	give_action(M, /datum/action/human_action/blackfoot/toggle_targeting)
 
-	SEND_SIGNAL(src, COMSIG_BLACKFOOT_ACTIONS_UPDATE)
+	for(var/obj/item/hardpoint/hardpoint in hardpoints)
+		SEND_SIGNAL(hardpoint, COMSIG_BLACKFOOT_ACTIONS_UPDATE)
 
 	for(var/atom/movable/screen/blackfoot/screen_to_add as anything in custom_hud)
 		M.client.add_to_screen(screen_to_add)
@@ -459,7 +460,8 @@
 	if(launchers)
 		launchers.safety = TRUE
 
-	SEND_SIGNAL(src, COMSIG_BLACKFOOT_ACTIONS_UPDATE, TRUE)
+	for(var/obj/item/hardpoint/hardpoint in hardpoints)
+		SEND_SIGNAL(hardpoint, COMSIG_BLACKFOOT_ACTIONS_UPDATE, TRUE)
 
 	for(var/atom/movable/screen/blackfoot/screen_to_remove as anything in custom_hud)
 		M.client.remove_from_screen(screen_to_remove)
