@@ -31,7 +31,6 @@
 
 	var/obj/vehicle/multitile/blackfoot/blackfoot = vehicle
 
-	QDEL_NULL(blackfoot.interior)
 	blackfoot.interior = new(blackfoot)
 	blackfoot.interior_map = interior_type
 	INVOKE_ASYNC(blackfoot, TYPE_PROC_REF(/obj/vehicle/multitile, do_create_interior))
@@ -80,4 +79,8 @@
 	LAZYREMOVE(backup_clips, new_magazine)
 
 	to_chat(user, SPAN_NOTICE("You reload \the [name]."))
+
+/obj/item/hardpoint/secondary/doorgun/can_be_removed(mob/remover)
+	to_chat(remover, SPAN_WARNING("[src] cannot be removed from [owner]."))
+	return FALSE
 

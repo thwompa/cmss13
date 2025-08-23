@@ -561,7 +561,7 @@
 
 /obj/item/reagent_container/food/snacks/grown/mushroom/plumphelmet
 	name = "plump-helmet"
-	desc = "<I>Plumus Hellmus</I>: A purple plump mushroom. Decent for baking."
+	desc = "<I>Plumus Hellmus</I>: Plump, soft and s-so inviting~"
 	icon_state = "plumphelmet"
 	filling_color = "#F714BE"
 	plantname = "plumphelmet"

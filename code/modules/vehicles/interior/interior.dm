@@ -271,7 +271,7 @@
 	return FALSE
 
 // Moves the atom to the exterior
-/datum/interior/proc/exit(atom/movable/atom, turf/exit_turf)
+/datum/interior/proc/exit(atom/movable/A, turf/exit_turf)
 	if(!exit_turf)
 		exit_turf = get_turf(exterior)
 	if(!exit_turf)
@@ -280,27 +280,26 @@
 		return FALSE
 
 	var/exit_dir = get_dir(exterior, exit_turf)
-	for(var/atom/exit_turf_atom in exit_turf)
-		if(!exit_turf_atom.density)
+	for(var/atom/O in exit_turf)
+		if(!O.density)
 			continue
 
 		// The exterior itself shouldn't block the exit
-		if(exit_turf_atom == exterior)
+		if(O == exterior)
 			continue
 
-		if(istype(exit_turf_atom, /atom/movable))
-			var/atom/movable/movable_atom = exit_turf_atom
+		if(istype(O, /atom/movable))
+			var/atom/movable/M = O
 			// Assume we can move the atom over or something when it's not anchored
-			if(!movable_atom.anchored)
+			if(!M.anchored)
 				continue
 
-		if(exit_turf_atom.BlockedPassDirs(atom, exit_dir))
-			if(ismob(atom))
-				to_chat(atom, SPAN_WARNING("Something is blocking the exit!"))
+		if(O.BlockedPassDirs(A, exit_dir))
+			if(ismob(A))
+				to_chat(A, SPAN_WARNING("Something is blocking the exit!"))
 			return FALSE
 
-	atom.forceMove(get_turf(exit_turf))
-	SEND_SIGNAL(atom, COMSIG_VEHICLE_INTERIOR_EXIT)
+	A.forceMove(get_turf(exit_turf))
 	update_passenger_count()
 	return TRUE
 

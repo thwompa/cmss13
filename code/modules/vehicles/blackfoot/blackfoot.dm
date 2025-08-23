@@ -88,7 +88,6 @@
 	COOLDOWN_DECLARE(flight_sound_cooldown)
 
 	var/obj/blackfoot_shadow/shadow_holder
-	var/obj/downwash_effect/downwash_holder
 
 	var/busy = FALSE
 
@@ -125,18 +124,12 @@
 	pixel_y = -160
 	layer = ABOVE_MOB_LAYER
 	flags_atom = NO_ZFALL
-	unacidable = TRUE
-	explo_proof = TRUE
-	emp_proof = TRUE
 
 /obj/downwash_effect
 	icon = 'icons/obj/vehicles/blackfoot.dmi'
 	icon_state = "downwash"
 	pixel_x = -64
 	pixel_y = -32
-	unacidable = TRUE
-	explo_proof = TRUE
-	emp_proof = TRUE
 
 /obj/vehicle/multitile/blackfoot/Initialize(mapload, ...)
 	. = ..()
@@ -147,8 +140,11 @@
 
 /obj/vehicle/multitile/blackfoot/Destroy()
 	QDEL_NULL(shadow_holder)
-	QDEL_NULL(downwash_holder)
+
 	. = ..()
+
+/obj/vehicle/multitile/blackfoot/load_hardpoints()
+	add_hardpoint(new /obj/item/hardpoint/secondary/doorgun)
 
 /obj/vehicle/multitile/blackfoot/load_role_reserved_slots()
 	var/datum/role_reserved_slots/reserved_slot = new
@@ -298,17 +294,16 @@
 	state = STATE_DESTROYED
 	update_icon()
 	var/turf/below_turf = SSmapping.get_turf_below(get_turf(src))
-	var/turf/old_below_turf = below_turf
 
 	while(SSmapping.get_turf_below(below_turf))
 		if(!fits_in_turf(below_turf))
 			break
-		old_below_turf = below_turf
+
 		below_turf = SSmapping.get_turf_below(below_turf)
 
-	forceMove(old_below_turf)
-	cell_explosion(old_below_turf, 400, 50, EXPLOSION_FALLOFF_SHAPE_LINEAR, null, create_cause_data("blackfoot crash"))
-	QDEL_NULL(shadow_holder)
+	forceMove(below_turf)
+	cell_explosion(below_turf, 400, 50, EXPLOSION_FALLOFF_SHAPE_LINEAR, null, create_cause_data("blackfoot crash"))
+	qdel(shadow_holder)
 	entrances = null
 
 /obj/vehicle/multitile/blackfoot/before_move(direction)
@@ -321,21 +316,18 @@
 	var/turf/below = SSmapping.get_turf_below(get_step(get_turf(src), direction))
 
 	if(!below)
-		log_debug("BLACKFOOT ERROR: No below turf found.")
 		return
 
-	var/turf/shadow_turf = below
-	var/turf/old_shadow_turf = shadow_turf
+	var/turf/shadow_turf = SSmapping.get_turf_below(below)
 
 	while(SSmapping.get_turf_below(shadow_turf))
-		if(!fits_in_turf(shadow_turf))
+		if(!fits_in_turf(SSmapping.get_turf_below(shadow_turf)))
 			break
 
-		old_shadow_turf = shadow_turf
 		shadow_turf = SSmapping.get_turf_below(shadow_turf)
 
 	shadow_holder.dir = dir
-	shadow_holder.forceMove(old_shadow_turf)
+	shadow_holder.forceMove(shadow_turf)
 
 /obj/vehicle/multitile/blackfoot/add_seated_verbs(mob/living/M, seat)
 	if(!M.client)
@@ -359,15 +351,15 @@
 		/obj/vehicle/multitile/proc/switch_hardpoint
 	))
 
-	give_action(M, /datum/action/human_action/blackfoot/disconnect_tug)
-	give_action(M, /datum/action/human_action/blackfoot/toggle_stow)
-	give_action(M, /datum/action/human_action/blackfoot/toggle_engines)
 	give_action(M, /datum/action/human_action/blackfoot/takeoff)
 	give_action(M, /datum/action/human_action/blackfoot/land)
 	give_action(M, /datum/action/human_action/blackfoot/toggle_vtol)
+	give_action(M, /datum/action/human_action/blackfoot/toggle_stow)
+	give_action(M, /datum/action/human_action/blackfoot/disconnect_tug)
 	give_action(M, /datum/action/human_action/blackfoot/toggle_sensors)
 	give_action(M, /datum/action/human_action/blackfoot/access_tacmap)
 	give_action(M, /datum/action/human_action/blackfoot/toggle_nvg)
+	give_action(M, /datum/action/human_action/blackfoot/toggle_engines)
 	give_action(M, /datum/action/human_action/blackfoot/toggle_targeting)
 
 	SEND_SIGNAL(src, COMSIG_BLACKFOOT_ACTIONS_UPDATE)
@@ -608,7 +600,7 @@
 		return
 
 	busy = TRUE
-	downwash_holder = new(get_turf(src))
+	new /obj/downwash_effect(get_turf(src))
 	playsound(loc, 'sound/vehicles/vtol/takeoff.ogg', 25, FALSE)
 	transition_engines()
 	addtimer(CALLBACK(src, PROC_REF(takeoff_engage_vtol)), 14 SECONDS)
@@ -623,7 +615,8 @@
 	flags_atom |= NO_ZFALL
 	state = STATE_VTOL
 	update_icon()
-	QDEL_NULL(downwash_holder)
+	var/obj/downwash_effect/downwash = locate() in get_turf(src)
+	qdel(downwash)
 
 	var/turf/top_turf = SSmapping.get_turf_above(get_turf(src))
 	while(SSmapping.get_turf_above(top_turf))
@@ -636,8 +629,8 @@
 	while(SSmapping.get_turf_below(shadow_turf))
 		if(!fits_in_turf(SSmapping.get_turf_below(shadow_turf)))
 			break
-		shadow_turf = SSmapping.get_turf_below(shadow_turf)
 
+		shadow_turf = SSmapping.get_turf_below(shadow_turf)
 	shadow_holder = new(shadow_turf)
 	shadow_holder.icon_state = "[get_sprite_state()]_shadow"
 	if(back_door.open)
@@ -653,7 +646,6 @@
 		return
 
 	var/turf/below_turf = SSmapping.get_turf_below(get_turf(src))
-	var/turf/old_below_turf = below_turf
 
 	if(!fits_in_turf(below_turf))
 		// yah carnt park that there mate
@@ -665,7 +657,6 @@
 			to_chat(seats[VEHICLE_DRIVER], SPAN_WARNING("You can't land here, the area is roofed or blocked by something."))
 			return
 
-		old_below_turf = below_turf
 		below_turf = SSmapping.get_turf_below(below_turf)
 
 	if(busy)
@@ -673,7 +664,7 @@
 		return
 
 	animate(shadow_holder, pixel_x = src.pixel_x, pixel_y = src.pixel_y, time = 18 SECONDS)
-	downwash_holder = new(old_below_turf)
+	new /obj/downwash_effect(below_turf)
 	busy = TRUE
 	state = STATE_TAKEOFF_LANDING
 	update_icon()
@@ -685,17 +676,15 @@
 	STOP_PROCESSING(SSsuperfastobj, src)
 
 	var/turf/below_turf = SSmapping.get_turf_below(get_turf(src))
-	var/turf/old_below_turf = below_turf
 
 	while(SSmapping.get_turf_below(below_turf))
-		if(!fits_in_turf(below_turf))
+		if(!fits_in_turf(SSmapping.get_turf_below(below_turf)))
 			break
-		old_below_turf = below_turf
+
 		below_turf = SSmapping.get_turf_below(below_turf)
 
-	forceMove(old_below_turf)
-	QDEL_NULL(shadow_holder)
-	QDEL_NULL(downwash_holder)
+	forceMove(below_turf)
+	qdel(shadow_holder)
 	flags_atom &= ~NO_ZFALL
 	state = STATE_DEPLOYED
 	transition_engines() // Idle mode by default
@@ -703,6 +692,12 @@
 	if(back_door.open)
 		update_rear_view()
 	busy = FALSE
+
+	var/turf/downwash_turf = get_turf(src)
+	var/obj/downwash_effect/downwash = locate() in downwash_turf
+
+	if(downwash)
+		qdel(downwash)
 
 	var/turf/possible_pad_turf = locate(x - 1, y - 1, z)
 	var/obj/structure/landing_pad = locate() in possible_pad_turf
@@ -1088,18 +1083,14 @@
 	pixel_x = -16
 	pixel_y = 0
 	layer = 4.01
-	unacidable = TRUE
-	explo_proof = TRUE
-	emp_proof = TRUE
 
 /obj/structure/landing_pad_folded
-	name = "M9AB Landing Pad (FOLDED)"
+	name = "M9AB Landing Pad"
 	desc = "A specially fabricated ultra-light, carbon-fiber, fiberglass reinforced, fuel saturated foldable landing pad designed for quick in-field deployment. VTOL aircraft can be automatically refueled by landing directly on this pad, taking fuel in at a slow rate through a emissive membrane sealed into the pad layer. It is firm, but malleable, like a water bed full of tar."
 	icon = 'icons/obj/vehicles/blackfoot_structures.dmi'
 	icon_state = "landing-pad-folded"
 	density = TRUE
 	anchored = FALSE
-	climbable = TRUE //Can get stuck in the interior otherwise.
 
 	pixel_x = -16
 	pixel_y = -16
@@ -1255,9 +1246,6 @@
 	var/installed_lights = 0
 	var/flight_cpu_installed = FALSE
 	var/fuelpump_installed = FALSE
-	var/list/tunnel_blockers = list()
-
-	layer = ABOVE_WEED_LAYER
 
 /obj/structure/landing_pad/process(deltatime)
 	var/turf/center_turf = locate(x + 1, y + 1, z)
@@ -1268,26 +1256,6 @@
 		return
 
 	parked_aircraft.fuel = min(parked_aircraft.fuel + deltatime, parked_aircraft.max_fuel)
-
-/obj/structure/landing_pad/Initialize(mapload, ...)
-	. = ..()
-	for(var/turf/floor in CORNER_BLOCK(loc, 3, 3))
-		var/obj/effect/tunnel_blocker/blocker_effect = new(floor)
-		tunnel_blockers += blocker_effect
-
-/obj/structure/landing_pad/Destroy()
-	for(var/obj/effect/tunnel_blocker/blocker_effect in tunnel_blockers)
-		tunnel_blockers -= blocker_effect
-		qdel(blocker_effect)
-
-	. = ..()
-
-/// Landing Pad Tunnel Blocker
-/obj/effect/tunnel_blocker
-	name = "Tunnel Blocker"
-	invisibility = INVISIBILITY_MAXIMUM
-	density = FALSE
-	opacity = FALSE
 
 /obj/structure/landing_pad/attackby(obj/item/hit_item, mob/user)
 	if(istype(hit_item, /obj/item/landing_pad_light))
