@@ -32,7 +32,6 @@
 		"Human",
 		"Machine",
 		"Human Hero",
-		"Thrall",
 		SYNTH_COLONY,
 		SYNTH_COLONY_GEN_ONE,
 		SYNTH_COLONY_GEN_TWO,

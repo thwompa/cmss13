@@ -16,7 +16,6 @@
 /datum/equipment_preset/yautja/load_race(mob/living/carbon/human/new_human, client/mob_client)
 	new_human.set_species(SPECIES_YAUTJA)
 	new_human.skin_color = pick(PRED_SKIN_COLOR)
-	new_human.bubble_icon = "pred"
 	new_human.body_type = "pred" //can be removed in future for body types
 	if(!mob_client)
 		mob_client = new_human.client
