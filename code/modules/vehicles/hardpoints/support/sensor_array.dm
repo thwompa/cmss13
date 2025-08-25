@@ -12,7 +12,7 @@
 #define RADAR_CONTACT_HOSTILE "hostile"
 
 /obj/item/hardpoint/support/sensor_array
-	name = "\improper AQ-133 Acquisition System"
+	name = "\improper AQ-133 Acquisition System (WIP)"
 	desc = "A short-range Air-to-Ground LIDAR target acquisition system designed to actively track and profile non-IFF signatures in a localized range of detection."
 	icon = 'icons/obj/vehicles/hardpoints/blackfoot.dmi'
 	icon_state = "radar"

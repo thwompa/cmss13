@@ -43,7 +43,6 @@
 	hardpoints_allowed = list(
 		/obj/item/hardpoint/locomotion/blackfoot_thrusters,
 		/obj/item/hardpoint/primary/blackfoot_launchers,
-		/obj/item/hardpoint/support/sensor_array,
 		/obj/item/hardpoint/secondary/doorgun,
 	)
 
