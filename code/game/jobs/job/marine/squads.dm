@@ -324,6 +324,41 @@ SQUAD_DROPPAD(echo)
 	locked = TRUE
 	add_to_glob_squad_list = TRUE
 
+/datum/squad/marine/kilo
+	name = SQUAD_MARINE_6
+	equipment_color = "#059e96"
+	chat_color = "#059e96"
+	access = list(ACCESS_MARINE_CHARLIE)
+	radio_freq = KILO_FREQ
+	minimap_color = MINIMAP_SQUAD_CHARLIE
+	background_icon = "background_charlie"
+	has_cryostorage = TRUE
+	add_to_glob_squad_list = TRUE
+	beret_flavortext = "Still has some morning toast crumbs on it."
+
+SQUAD_LANDMARKS(kilo)
+SQUAD_CRYOSTORAGE(kilo)
+SQUAD_VENDORS(charlie, ACCESS_MARINE_CHARLIE)
+SQUAD_DROPPAD(charlie)
+
+/datum/squad/marine/oscar
+	name = SQUAD_MARINE_7
+	equipment_color = "#61a3ae"
+	chat_color = "#61a3ae"
+	access = list(ACCESS_MARINE_CHARLIE)
+	radio_freq = KILO_FREQ
+	minimap_color = MINIMAP_SQUAD_CHARLIE
+	background_icon = "background_charlie"
+	has_cryostorage = TRUE
+	add_to_glob_squad_list = TRUE
+	beret_flavortext = "Still has some morning toast crumbs on it."
+
+SQUAD_LANDMARKS(oscar)
+SQUAD_CRYOSTORAGE(oscar)
+SQUAD_VENDORS(charlie, ACCESS_MARINE_CHARLIE)
+SQUAD_DROPPAD(charlie)
+
+
 /datum/squad/marine/intel
 	name = SQUAD_MARINE_INTEL
 	use_stripe_overlay = FALSE
