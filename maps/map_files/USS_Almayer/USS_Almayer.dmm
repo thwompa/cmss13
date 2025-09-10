@@ -41496,7 +41496,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/bed/chair/comfy/orange,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "dBO" = (
@@ -59037,7 +59037,7 @@
 /area/almayer/hallways/upper/starboard)
 "kNX" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/comfy/orange,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "kNY" = (
@@ -64181,7 +64181,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/bed/chair/comfy/orange,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "mZq" = (
@@ -76323,8 +76323,8 @@
 /area/almayer/living/starboard_emb)
 "rNd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/marine/spec/kilo,
-/obj/effect/landmark/late_join/kilo,
+/obj/effect/landmark/start/marine/spec/oscar,
+/obj/effect/landmark/late_join/oscar,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/squads/support)
 "rNu" = (
@@ -78731,7 +78731,7 @@
 /turf/open/floor/plating/plating_catwalk/no_build,
 /area/almayer/underdeck/hangar)
 "sMu" = (
-/obj/structure/bed/chair/comfy/orange,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "sMK" = (
@@ -82903,8 +82903,8 @@
 /area/almayer/shipboard/port_missiles)
 "uwt" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/bed/chair/comfy/orange,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "uwv" = (
@@ -88869,8 +88869,8 @@
 /area/almayer/maint/hull/lower/l_f_p)
 "wGE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/marine/spec/oscar,
-/obj/effect/landmark/late_join/oscar,
+/obj/effect/landmark/start/marine/spec/kilo,
+/obj/effect/landmark/late_join/kilo,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/squads/support)
 "wGX" = (
@@ -92861,8 +92861,8 @@
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
 	},
-/obj/structure/bed/chair/comfy/orange,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/comfy/blue,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "ykd" = (
@@ -146986,7 +146986,7 @@ wWX
 oEo
 cgs
 uYH
-rNd
+wGE
 bJC
 xhO
 xHa
@@ -147398,7 +147398,7 @@ aRZ
 vUJ
 cgs
 kWN
-wGE
+rNd
 bJC
 gEh
 xhO
