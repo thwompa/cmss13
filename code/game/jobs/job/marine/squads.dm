@@ -280,33 +280,33 @@ SQUAD_CRYOSTORAGE(bravo, Bravo)
 SQUAD_VENDORS(bravo, ACCESS_MARINE_BRAVO, Bravo)
 SQUAD_DROPPAD(bravo, Bravo)
 
-/datum/squad/marine/charlie
+/datum/squad/marine/tango
 	name = SQUAD_MARINE_3
-	equipment_color = "#c864c8"
-	chat_color = "#ff96ff"
+	equipment_color = "#c1ffff"
+	chat_color = "#22ffff"
 	access = list(ACCESS_MARINE_SUPPORT)
-	radio_freq = CHARLIE_FREQ
-	minimap_color = MINIMAP_SQUAD_CHARLIE
-	background_icon = "background_charlie"
+	radio_freq = TANGO_FREQ
+	minimap_color = MINIMAP_SQUAD_TANGO
+	background_icon = "background_tango"
 	has_cryostorage = TRUE
 	add_to_glob_squad_list = TRUE
-	beret_flavortext = "Still has some morning toast crumbs on it."
+	beret_flavortext = "Ice cold."
 
 	roles_cap = list(
 		JOB_SQUAD_MARINE = 0,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
-		JOB_SQUAD_SPECIALIST = 1,
-		JOB_SQUAD_TEAM_LEADER = 0,
+		JOB_SQUAD_SPECIALIST = 0,
+		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
 
 	riflemen_limited = 10
 
-SQUAD_LANDMARKS(charlie, Charlie)
-SQUAD_CRYOSTORAGE(charlie, Charlie)
-SQUAD_DROPPAD(charlie, Charlie)
+SQUAD_LANDMARKS(tango, Tango)
+SQUAD_CRYOSTORAGE(tango, Tango)
+SQUAD_DROPPAD(tango, Tango)
 
 /datum/squad/marine/delta
 	name = SQUAD_MARINE_4
@@ -363,15 +363,15 @@ SQUAD_DROPPAD(echo, Echo)
 	background_icon = "background_kilo"
 	has_cryostorage = TRUE
 	add_to_glob_squad_list = TRUE
-	beret_flavortext = "Still has some morning toast crumbs on it."
+	beret_flavortext = "Bends, doesn't break."
 
 	roles_cap = list(
 		JOB_SQUAD_MARINE = 0,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
-		JOB_SQUAD_SPECIALIST = 1,
-		JOB_SQUAD_TEAM_LEADER = 0,
+		JOB_SQUAD_SPECIALIST = 0,
+		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
 
@@ -391,15 +391,15 @@ SQUAD_DROPPAD(kilo, Kilo)
 	background_icon = "background_oscar"
 	has_cryostorage = TRUE
 	add_to_glob_squad_list = TRUE
-	beret_flavortext = "Still has some morning toast crumbs on it."
+	beret_flavortext = "Maximum prejudice."
 
 	roles_cap = list(
 		JOB_SQUAD_MARINE = 0,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
-		JOB_SQUAD_SPECIALIST = 1,
-		JOB_SQUAD_TEAM_LEADER = 0,
+		JOB_SQUAD_SPECIALIST = 0,
+		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
 
