@@ -150,8 +150,12 @@
 		JOB_SQUAD_TEAM_LEADER = 2,
 		JOB_SQUAD_LEADER = 1,
 	)
-	/// Is this squad's rifleman limited, meaning the total population of the squad can only be X% of the population of all squads, 0 means disabled
-	var/riflemen_limited = 0
+	/// Saves the initial roles cap, since byond doesn't like initial() on lists
+	var/list/initial_roles_cap
+	/// Do this squad's roles scale with pop
+	var/dynamic_scaling = TRUE
+	/// At which amount of clients does this squad become playable
+	var/pop_lock = 0
 	/// Squad roles actual number of players list
 	var/list/roles_in = list()
 	/// Squad headsets default radio frequency
@@ -262,7 +266,7 @@ SQUAD_DROPPAD(alpha, Alpha)
 	beret_flavortext = "It has quite a lot of debris on it, the person wearing this probably moves less than a wall."
 
 	roles_cap = list(
-		JOB_SQUAD_MARINE = 0,
+		JOB_SQUAD_MARINE = 8,
 		JOB_SQUAD_ENGI = 2,
 		JOB_SQUAD_MEDIC = 2,
 		JOB_SQUAD_SMARTGUN = 0,
@@ -270,7 +274,7 @@ SQUAD_DROPPAD(alpha, Alpha)
 		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
-	riflemen_limited = 20
+	dynamic_scaling = FALSE
 
 
 SQUAD_LANDMARKS(bravo, Bravo)
@@ -291,7 +295,7 @@ SQUAD_DROPPAD(bravo, Bravo)
 	beret_flavortext = "Ice cold."
 
 	roles_cap = list(
-		JOB_SQUAD_MARINE = 0,
+		JOB_SQUAD_MARINE = 4,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
@@ -299,7 +303,7 @@ SQUAD_DROPPAD(bravo, Bravo)
 		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
-	riflemen_limited = 10
+	dynamic_scaling = FALSE
 
 SQUAD_LANDMARKS(tango, Tango)
 SQUAD_CRYOSTORAGE(tango, Tango)
@@ -363,7 +367,7 @@ SQUAD_DROPPAD(echo, Echo)
 	beret_flavortext = "Bends, doesn't break."
 
 	roles_cap = list(
-		JOB_SQUAD_MARINE = 0,
+		JOB_SQUAD_MARINE = 4,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
@@ -371,7 +375,8 @@ SQUAD_DROPPAD(echo, Echo)
 		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
-	riflemen_limited = 10
+	dynamic_scaling = FALSE
+	pop_lock = 80
 
 SQUAD_LANDMARKS(kilo, Kilo)
 SQUAD_CRYOSTORAGE(kilo, Kilo)
@@ -390,7 +395,7 @@ SQUAD_DROPPAD(kilo, Kilo)
 	beret_flavortext = "Maximum prejudice."
 
 	roles_cap = list(
-		JOB_SQUAD_MARINE = 0,
+		JOB_SQUAD_MARINE = 4,
 		JOB_SQUAD_ENGI = 1,
 		JOB_SQUAD_MEDIC = 1,
 		JOB_SQUAD_SMARTGUN = 0,
@@ -398,7 +403,8 @@ SQUAD_DROPPAD(kilo, Kilo)
 		JOB_SQUAD_TEAM_LEADER = 1,
 		JOB_SQUAD_LEADER = 1,
 	)
-	riflemen_limited = 10
+	dynamic_scaling = FALSE
+	pop_lock = 120
 
 SQUAD_LANDMARKS(oscar, Oscar)
 SQUAD_CRYOSTORAGE(oscar, Oscar)
@@ -599,6 +605,17 @@ SQUAD_VENDORS(support, ACCESS_MARINE_SUPPORT, null)
 	SStracking.setup_trackers(null, "FT3")
 	update_all_squad_info()
 
+	if(pop_lock > 0)
+		initial_roles_cap = roles_cap.Copy()
+		roles_cap = list(
+			JOB_SQUAD_MARINE = 0,
+			JOB_SQUAD_ENGI = 0,
+			JOB_SQUAD_MEDIC = 0,
+			JOB_SQUAD_SMARTGUN = 0,
+			JOB_SQUAD_SPECIALIST = 0,
+			JOB_SQUAD_TEAM_LEADER = 0,
+			JOB_SQUAD_LEADER = 0,
+		)
 
 	if (!(name in GLOB.radiochannels))
 		var/found = FALSE
