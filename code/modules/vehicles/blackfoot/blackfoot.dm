@@ -142,6 +142,17 @@
 /obj/effect/vehicle_spawner/blackfoot/doorgun/load_hardpoints(obj/vehicle/multitile/blackfoot/doorgun/blackfoot)
 	blackfoot.add_hardpoint(new /obj/item/hardpoint/secondary/doorgun)
 
+/obj/effect/vehicle_spawner/blackfoot/recon
+	name = "Recon AD-71E Blackfoot Spawner"
+	icon = 'icons/obj/vehicles/blackfoot.dmi'
+	icon_state = "recon_stowed"
+
+	vehicle_type = /obj/vehicle/multitile/blackfoot/recon
+
+/obj/effect/vehicle_spawner/blackfoot/recon/load_hardpoints(obj/vehicle/multitile/blackfoot/recon/blackfoot)
+	blackfoot.add_hardpoint(new /obj/item/hardpoint/secondary/doorgun)
+	blackfoot.add_hardpoint(new /obj/item/hardpoint/support/recon_system)
+
 /obj/vehicle/multitile/blackfoot/doorgun
 	icon_state = "doorgun_stowed"
 
@@ -151,6 +162,18 @@
 		/obj/item/hardpoint/secondary/doorgun,
 	)
 
+	interior_map = /datum/map_template/interior/blackfoot_doorgun
+
+/obj/vehicle/multitile/blackfoot/recon
+	icon_state = "recon_stowed"
+
+	hardpoints_allowed = list(
+		/obj/item/hardpoint/locomotion/blackfoot_thrusters,
+		/obj/item/hardpoint/primary/blackfoot_launchers,
+		/obj/item/hardpoint/secondary/doorgun,
+		/obj/item/hardpoint/support/recon_system,
+	)
+	// change this when/if updated map is ready
 	interior_map = /datum/map_template/interior/blackfoot_doorgun
 
 /datum/tacmap/drawing/blackfoot/ui_status(mob/user)
