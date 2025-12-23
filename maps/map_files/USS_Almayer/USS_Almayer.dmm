@@ -32851,18 +32851,6 @@
 /obj/structure/largecrate/random/barrel/true_random,
 /turf/open/floor/plating/plating_catwalk/no_build,
 /area/almayer/underdeck/hangar)
-"bCu" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/condiment/hotsauce/franks{
-	pixel_x = -6;
-	pixel_y = 16
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = 1;
-	pixel_y = 1
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
 "bCv" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 4;
@@ -37094,12 +37082,6 @@
 	},
 /area/almayer/squads/support)
 "bNw" = (
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_22";
-	pixel_x = -8;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/red/southeast,
 /area/almayer/living/briefing)
 "bNx" = (
@@ -40100,22 +40082,6 @@
 /area/almayer/living/briefing)
 "bUt" = (
 /obj/structure/surface/table/almayer,
-/obj/item/reagent_container/food/snacks/breadslice{
-	pixel_y = 9;
-	pixel_x = -5
-	},
-/obj/item/reagent_container/food/snacks/breadslice{
-	pixel_y = -1;
-	pixel_x = 1
-	},
-/obj/item/reagent_container/food/snacks/breadslice{
-	pixel_y = 2;
-	pixel_x = 1
-	},
-/obj/item/reagent_container/food/snacks/breadslice{
-	pixel_y = 12;
-	pixel_x = -5
-	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
 "bUu" = (
@@ -40440,13 +40406,6 @@
 /obj/structure/closet/l3closet/scientist,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/medical/medical_science)
-"bVf" = (
-/obj/item/ammo_box/magazine/misc/mre/empty{
-	pixel_y = 13;
-	pixel_x = -8
-	},
-/turf/open/floor/almayer/green/west,
-/area/almayer/living/briefing)
 "bVg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/greencorner,
@@ -40646,42 +40605,45 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
-"bVG" = (
+"bVH" = (
 /obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/condiment/hotsauce/franks{
-	pixel_x = -6;
-	pixel_y = 24
-	},
 /obj/item/ashtray/plastic{
-	pixel_x = 2;
-	pixel_y = -9
+	pixel_x = -4;
+	pixel_y = -12
 	},
 /obj/item/trash/ceramic_plate{
-	pixel_y = 8;
-	pixel_x = 2
+	pixel_y = 10;
+	pixel_x = -3
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_y = 14;
+	pixel_x = -7
 	},
 /obj/item/reagent_container/food/condiment/peppermill{
 	pixel_y = 12;
 	pixel_x = -1
 	},
-/obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_y = 10;
-	pixel_x = 5
-	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
-"bVH" = (
-/obj/structure/bed/chair/comfy{
-	dir = 1
-	},
-/turf/open/floor/almayer/mono,
-/area/almayer/living/briefing)
 "bVI" = (
-/obj/structure/bed/chair/comfy{
-	dir = 1
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/ceramic_plate{
+	pixel_y = 10;
+	pixel_x = -3
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/mono,
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_y = 14;
+	pixel_x = -7
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_y = 12;
+	pixel_x = -1
+	},
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_x = -6;
+	pixel_y = -11
+	},
+/turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
 "bVJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -40799,60 +40761,8 @@
 "bVU" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/shipboard/port_point_defense)
-"bVV" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/condiment/hotsauce/sriracha{
-	pixel_x = 7;
-	pixel_y = 15
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -1;
-	pixel_y = 16
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
 "bVW" = (
 /obj/structure/surface/table/reinforced/black,
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
-"bVX" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
-	pixel_x = 8;
-	pixel_y = 11
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -4;
-	pixel_y = 5
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
-"bVY" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/trash/ceramic_plate{
-	pixel_y = 5;
-	pixel_x = 3
-	},
-/obj/item/reagent_container/food/condiment/peppermill{
-	pixel_y = 8;
-	pixel_x = -1
-	},
-/obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_y = 10;
-	pixel_x = 5
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
-"bVZ" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/condiment/hotsauce/cholula{
-	pixel_x = 6;
-	pixel_y = 20
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -7;
-	pixel_y = 8
-	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
 "bWa" = (
@@ -41013,15 +40923,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/mono,
 /area/almayer/living/briefing)
-"bWv" = (
-/obj/structure/bed/chair/comfy,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/mono,
-/area/almayer/living/briefing)
-"bWw" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/flooredge/west,
-/area/almayer/living/briefing)
 "bWx" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/effect/decal/cleanable/dirt,
@@ -41165,16 +41066,16 @@
 /turf/open/floor/almayer/silver/northwest,
 /area/almayer/living/briefing)
 "bWN" = (
-/obj/item/ammo_box/magazine/misc/mre/empty{
-	pixel_y = 16;
-	pixel_x = 13
-	},
-/obj/item/ammo_box/magazine/misc/mre/empty{
-	pixel_y = 16;
-	pixel_x = -5
-	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
+	},
+/obj/item/tool/mop{
+	pixel_x = -6;
+	pixel_y = 24
+	},
+/obj/item/reagent_container/glass/bucket/mopbucket{
+	pixel_x = 3;
+	pixel_y = 12
 	},
 /turf/open/floor/almayer/silver/north,
 /area/almayer/living/briefing)
@@ -41303,10 +41204,6 @@
 /turf/open/floor/almayer/green/east,
 /area/almayer/hallways/upper/fore_hallway)
 "bXd" = (
-/obj/item/ammo_box/magazine/misc/mre/empty{
-	pixel_y = -2;
-	pixel_x = -6
-	},
 /turf/open/floor/almayer/silverfull,
 /area/almayer/living/briefing)
 "bXe" = (
@@ -41335,24 +41232,19 @@
 "bXj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/reagent_container/food/snacks/wrapped/barcardine{
-	pixel_x = 1;
-	pixel_y = 9
-	},
-/obj/item/reagent_container/food/snacks/wrapped/booniebars{
-	pixel_y = 12
-	},
-/obj/item/reagent_container/food/snacks/cookie{
-	pixel_x = -5;
-	pixel_y = -2
-	},
-/obj/item/reagent_container/food/snacks/cookie{
+/obj/item/tool/wet_sign{
+	pixel_y = 13;
 	pixel_x = 4;
-	pixel_y = -3
+	layer = 3.01
 	},
-/obj/item/reagent_container/food/snacks/cookie{
-	pixel_x = -1;
-	pixel_y = 1
+/obj/item/tool/wet_sign{
+	pixel_y = 13;
+	pixel_x = 4;
+	layer = 3.01
+	},
+/obj/item/tool/wet_sign{
+	pixel_y = 13;
+	pixel_x = 7
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -41684,38 +41576,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
-"bXP" = (
-/obj/structure/machinery/flasher{
-	id = "briefing_flash";
-	range = 12;
-	pixel_x = -8;
-	pixel_y = -8
-	},
-/turf/open/floor/almayer/flooredge/east,
-/area/almayer/living/briefing)
-"bXQ" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/ashtray/plastic{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
-"bXR" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/trash/ceramic_plate{
-	pixel_y = 5;
-	pixel_x = -3
-	},
-/obj/item/reagent_container/food/condiment/peppermill{
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_y = 9;
-	pixel_x = -7
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
 "bXS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -41771,18 +41631,6 @@
 /obj/item/ashtray/plastic{
 	pixel_x = 4;
 	pixel_y = 5
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
-"bXZ" = (
-/obj/item/reagent_container/glass/bucket/mopbucket{
-	pixel_x = 3;
-	pixel_y = 12
-	},
-/obj/item/reagent_container/spray/cleaner{
-	layer = 3.2;
-	pixel_x = -7;
-	pixel_y = 10
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -48060,13 +47908,13 @@
 /turf/open/floor/almayer/red/northwest,
 /area/almayer/shipboard/brig/interrogation)
 "ddk" = (
-/obj/structure/machinery/flasher{
-	id = "briefing_flash";
-	range = 12;
-	pixel_y = -8;
-	pixel_x = 8
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_22";
+	pixel_x = -8;
+	pixel_y = 6
 	},
-/turf/open/floor/almayer/flooredge/west,
+/turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
 "ddw" = (
 /obj/structure/machinery/cm_vending/sorted/tech/comp_storage,
@@ -48722,15 +48570,6 @@
 	dir = 4
 	},
 /turf/open/floor/almayer,
-/area/almayer/living/briefing)
-"duw" = (
-/obj/structure/machinery/flasher{
-	id = "briefing_flash";
-	range = 12;
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/turf/open/floor/almayer/flooredge/west,
 /area/almayer/living/briefing)
 "duz" = (
 /obj/structure/mirror{
@@ -49772,13 +49611,13 @@
 /turf/open/floor/carpet,
 /area/almayer/command/corporateliaison)
 "dRT" = (
-/obj/structure/machinery/flasher{
-	id = "briefing_flash";
-	range = 12;
-	pixel_x = -8;
-	pixel_y = 8
+/obj/structure/surface/table/reinforced/black,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ashtray/plastic{
+	pixel_x = 6;
+	pixel_y = 3
 	},
-/turf/open/floor/almayer/flooredge/east,
+/turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
 "dSp" = (
 /obj/structure/machinery/camera/autoname/almayer{
@@ -58081,8 +57920,9 @@
 /area/almayer/squads/req)
 "hGO" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/storage/donut_box{
-	pixel_y = 8
+/obj/item/reagent_container/spray/cleaner,
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = -6
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -64336,14 +64176,9 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/maint/hull/upper/p_stern)
 "ksN" = (
-/obj/item/ammo_box/magazine/misc/mre/empty{
-	pixel_y = 16;
-	pixel_x = -5
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer/silver/north,
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/condiment/hotsauce/sriracha,
+/turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "ksS" = (
 /obj/structure/largecrate/random{
@@ -77691,11 +77526,12 @@
 /turf/open_space,
 /area/almayer/stair_clone/upper/starboard_fore)
 "qnC" = (
-/obj/structure/bed/chair/comfy{
-	dir = 8
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/condiment/hotsauce/cholula{
+	pixel_x = 4;
+	pixel_y = 7
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/mono,
+/turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "qnH" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -82999,18 +82835,18 @@
 "sCA" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ashtray/plastic{
-	pixel_y = -6;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = -7
 	},
 /obj/item/trash/ceramic_plate{
-	pixel_y = 13
+	pixel_y = 15
 	},
 /obj/item/reagent_container/food/condiment/peppermill{
 	pixel_y = 17;
 	pixel_x = -3
 	},
 /obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_y = 15;
+	pixel_y = 19;
 	pixel_x = 4
 	},
 /turf/open/floor/almayer/plate,
@@ -86053,7 +85889,16 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/upper/u_m_s)
 "tXb" = (
-/turf/open/floor/almayer/flooredge/east,
+/obj/structure/surface/table/reinforced/black,
+/obj/item/ashtray/plastic{
+	pixel_x = -4;
+	pixel_y = 12
+	},
+/obj/item/reagent_container/food/condiment/hotsauce/cholula{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
 "tXc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -88429,9 +88274,6 @@
 /obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/hallways/upper/fore_hallway)
-"uWc" = (
-/turf/open/floor/almayer/flooredge/west,
-/area/almayer/living/briefing)
 "uWi" = (
 /obj/structure/machinery/light/red{
 	light_color = "#BB3F3F";
@@ -90845,14 +90687,6 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/hallways/lower/starboard_fore_hallway)
-"vUe" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/ashtray/plastic{
-	pixel_x = -3;
-	pixel_y = 0
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/living/briefing)
 "vUh" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer,
@@ -94818,10 +94652,6 @@
 "xAe" = (
 /turf/closed/wall/almayer/research/containment/wall/corner,
 /area/almayer/medical/containment/cell)
-"xAt" = (
-/obj/structure/bed/chair/comfy,
-/turf/open/floor/almayer/mono,
-/area/almayer/living/briefing)
 "xAu" = (
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 8;
@@ -143326,7 +143156,7 @@ knm
 nyw
 kiX
 kiX
-kiX
+ddk
 bdd
 aDU
 aDU
@@ -144758,7 +144588,7 @@ bWm
 bJt
 bJt
 bVm
-bVf
+bUw
 bUI
 bUu
 bdg
@@ -145158,8 +144988,8 @@ jUq
 bYe
 bgO
 fUA
-kiX
-kiX
+fUA
+fUA
 fUA
 beH
 bXo
@@ -145271,8 +145101,8 @@ mfM
 bWD
 bVr
 bVr
-bVr
-bVr
+bXK
+bXK
 bVg
 bUP
 bUB
@@ -145365,17 +145195,17 @@ jUq
 bYe
 bVt
 bXX
-bXO
-bWx
+bVI
+dRT
 rAb
 lgC
 bdd
 gZz
 tIa
-bVW
-bVV
-bVG
-bVt
+qnC
+bXX
+bVH
+bWx
 bUM
 bqZ
 bUC
@@ -145569,16 +145399,16 @@ atH
 bdd
 bUR
 vGG
-kiX
 fUA
 fUA
-kiX
+fUA
+fUA
 bgO
 xRw
 gMU
-ksN
+whA
 bgO
-fUA
+kiX
 fUA
 fUA
 kiX
@@ -145672,19 +145502,19 @@ bYM
 bdd
 bYt
 qMR
-bWS
-tXb
-bXP
-tXb
+bVr
+bVr
+bXK
+bXK
 bXD
 kNl
 bXd
 kNl
 eWp
-tXb
-dRT
-tXb
-bVg
+bVr
+bVr
+bXK
+bXK
 bUP
 bUS
 bdd
@@ -145775,19 +145605,19 @@ fZE
 bdg
 bUV
 bYk
-vGG
-bWv
-bVW
+bVt
+bXX
 bVH
+bWx
 bXE
 xRJ
 bXg
 whA
 eWp
-xAt
-bVW
+bVt
+tXb
 bVH
-bUM
+bWx
 oQH
 bUV
 bdg
@@ -145878,19 +145708,19 @@ fZE
 bdg
 bUV
 bYk
-vGG
-bWv
-bXQ
-bVH
+bVu
+bVu
+bVu
+bVu
 bXE
 bXp
 bXi
 bWI
 bWD
-xAt
-bVX
-bVH
-bVh
+bVu
+bVu
+bVu
+bVu
 bVi
 bUV
 bdg
@@ -145981,19 +145811,19 @@ fZE
 bdg
 bUV
 bYk
-bYe
-xAt
-bXR
-bVH
+fUA
+fUA
+fUA
+fUA
 moQ
 bXq
 bdd
 bWK
 fvf
-xAt
-bVY
-bVI
-bVh
+fUA
+fUA
+fUA
+fUA
 bVi
 bUV
 bdg
@@ -146084,19 +145914,19 @@ fZE
 bdg
 bUV
 bYk
-bYe
-xAt
-bCu
-bVI
+bVr
+bVr
+bXK
+bXK
 bXD
 bXr
 flW
 bWM
 bWD
-xAt
-vUe
-bVI
-bVh
+bVr
+bVr
+bXK
+bXK
 bVi
 bUV
 bdg
@@ -146187,19 +146017,19 @@ atH
 bdg
 bUV
 bYl
-vGG
-xAt
-bVW
-bVI
+bVt
+bXX
+bXO
+bWx
 bXD
 xRJ
 bXg
 whA
 eWp
-bWv
-bVW
+bVt
+bXX
 bVI
-bVh
+dRT
 oQH
 bUV
 bdg
@@ -146290,19 +146120,19 @@ fZE
 bdd
 bYx
 bYm
-bYf
-uWc
-ddk
-bWw
+bVu
+bVu
+bVu
+bVu
 bXE
 nlB
 ugu
 kNl
 bWD
-bWw
-duw
-uWc
-bUK
+bVu
+bVu
+bVu
+bVu
 mDW
 bUW
 bdd
@@ -146403,9 +146233,9 @@ hGO
 whA
 beH
 fUA
-kiX
-kiX
-kiX
+fUA
+fUA
+fUA
 bVh
 bUX
 bdd
@@ -146608,10 +146438,10 @@ bXs
 ovp
 bWO
 rAb
-bWx
-bVZ
+ksN
+bXY
 sCA
-bVt
+bVW
 bUM
 jUq
 bdd
@@ -146712,8 +146542,8 @@ fUA
 bWP
 bWD
 bVu
-qnC
-qnC
+bVu
+bVu
 bVu
 dVe
 bUZ
@@ -147012,7 +146842,7 @@ bdd
 bDU
 bVz
 bVk
-bXZ
+bqZ
 kFs
 bRL
 bXF
