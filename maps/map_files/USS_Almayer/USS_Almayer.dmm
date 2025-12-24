@@ -53477,13 +53477,6 @@
 	},
 /turf/open/floor/almayer/red,
 /area/almayer/shipboard/weapon_room)
-"hpn" = (
-/obj/structure/closet/crate{
-	desc = "One of those old special operations crates from back in the day. After a leaked report from a meeting of SOF leadership lambasted the crates as 'waste of operational funds' the crates were removed from service.";
-	name = "special operations crate"
-	},
-/turf/closed/wall/almayer,
-/area/almayer/living/briefing)
 "hpS" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "crate_room3";
@@ -58839,30 +58832,10 @@
 /turf/open/floor/almayer/blue2/northeast,
 /area/almayer/squads/delta)
 "jvt" = (
-/obj/structure/closet{
-	name = "Scout-Sniper closet"
-	},
-/obj/item/weapon/gun/rifle/l42a,
-/obj/item/weapon/gun/rifle/l42a,
-/obj/item/weapon/gun/rifle/l42a,
-/obj/item/weapon/gun/rifle/l42a,
-/obj/item/ammo_box/magazine/l42a,
-/obj/item/ammo_box/magazine/l42a/ap,
-/obj/item/attachable/bipod,
-/obj/item/attachable/bipod,
-/obj/item/attachable/bipod,
-/obj/item/attachable/extended_barrel,
-/obj/item/attachable/extended_barrel,
-/obj/item/attachable/extended_barrel,
-/obj/item/attachable/extended_barrel,
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo"
-	},
-/obj/item/attachable/scope,
-/obj/item/attachable/scope,
-/obj/item/attachable/scope,
-/obj/item/attachable/scope,
-/obj/item/attachable/bipod,
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/pamphlet/skill/engineer,
+/obj/item/pamphlet/skill/engineer,
+/obj/item/pamphlet/skill/engineer,
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
 "jvB" = (
@@ -78249,24 +78222,36 @@
 /turf/open/floor/almayer,
 /area/almayer/command/lifeboat)
 "rdl" = (
-/obj/structure/machinery/light{
-	dir = 1;
-	pixel_x = -16
+/obj/item/weapon/gun/rifle/l42a,
+/obj/item/weapon/gun/rifle/l42a,
+/obj/item/weapon/gun/rifle/l42a,
+/obj/item/weapon/gun/rifle/l42a,
+/obj/item/ammo_box/magazine/l42a,
+/obj/item/ammo_box/magazine/l42a/ap,
+/obj/item/attachable/bipod,
+/obj/item/attachable/bipod,
+/obj/item/attachable/bipod,
+/obj/item/attachable/extended_barrel,
+/obj/item/attachable/extended_barrel,
+/obj/item/attachable/extended_barrel,
+/obj/item/attachable/extended_barrel,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/item/attachable/scope,
+/obj/item/attachable/scope,
+/obj/item/attachable/scope,
+/obj/item/attachable/scope,
+/obj/item/attachable/bipod,
 /obj/structure/closet/crate/secure{
 	req_access_txt = "31";
-	name = "Anti-Tank crate"
+	name = "Jarhead crate"
 	},
-/obj/item/storage/belt/gun/flaregun/full,
-/obj/item/storage/belt/gun/flaregun/full,
-/obj/item/storage/box/guncase/vulture/holo_target,
-/obj/item/ammo_magazine/rifle/boltaction/vulture/holo_target,
-/obj/item/ammo_magazine/rifle/boltaction/vulture/holo_target,
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_smooth"
-	},
-/turf/open/floor/almayer/plate,
+/obj/item/ammo_box/magazine/l42a/ap,
+/obj/item/storage/backpack/marine/ammo_rack,
+/obj/item/ammo_box/magazine/l42a,
+/obj/item/storage/backpack/marine/ammo_rack,
+/turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
 "rdt" = (
 /obj/effect/decal/warning_stripes{
@@ -145371,7 +145356,7 @@ xUY
 xGE
 bko
 bdd
-hpn
+bdd
 wbN
 mgb
 hTT
