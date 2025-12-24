@@ -23070,10 +23070,6 @@
 /turf/open/floor/almayer/flooredge/east,
 /area/almayer/squads/bravo)
 "bfD" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
 /obj/structure/pipes/vents/scrubber{
 	dir = 4
 	},
@@ -42144,10 +42140,6 @@
 /area/almayer/engineering/upper_engineering/port)
 "cLc" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out";
-	pixel_y = 1
-	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/grunt_rnr)
 "cLd" = (
@@ -44364,9 +44356,6 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/hull/lower/stern)
 "dEk" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/plate,
 /area/almayer/living/grunt_rnr)
@@ -46538,12 +46527,10 @@
 /turf/open/floor/almayer,
 /area/almayer/hallways/lower/port_midship_hallway)
 "exf" = (
-/obj/structure/ladder{
-	height = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/plating/almayer,
 /area/almayer/living/grunt_rnr)
 "exi" = (
@@ -48655,12 +48642,10 @@
 /area/almayer/living/commandbunks)
 "fnx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/plate,
 /area/almayer/living/grunt_rnr)
 "fnA" = (
@@ -52205,6 +52190,15 @@
 /obj/item/reagent_container/food/snacks/tomatomeat,
 /obj/item/reagent_container/food/snacks/tomatomeat,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/pizzabox/pizza_galaxy/vegetable,
+/obj/item/pizzabox/pizza_galaxy/vegetable,
+/obj/item/pizzabox/pizza_galaxy/meat,
+/obj/item/pizzabox/pizza_galaxy/meat,
+/obj/item/pizzabox/pizza_galaxy/margherita,
+/obj/item/pizzabox/pizza_galaxy/margherita,
 /turf/open/floor/almayer,
 /area/almayer/living/briefing)
 "gPc" = (
@@ -54405,6 +54399,9 @@
 /area/almayer/maint/hull/lower/p_bow)
 "hLC" = (
 /obj/structure/surface/table/almayer,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 7
+	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/grunt_rnr)
 "hLI" = (
@@ -65824,10 +65821,6 @@
 /turf/open/floor/almayer,
 /area/almayer/lifeboat_pumps/north1)
 "mtr" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -69928,10 +69921,6 @@
 /turf/open/floor/almayer/mono,
 /area/almayer/lifeboat_pumps/south1)
 "nVa" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out";
-	pixel_x = 1
-	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
 	},
@@ -82114,9 +82103,6 @@
 /turf/open/floor/almayer/no_build/plating,
 /area/almayer/underdeck/req)
 "sBL" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "SW-out"
-	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/grunt_rnr)
 "sBQ" = (
@@ -94856,7 +94842,15 @@
 /turf/open/floor/almayer/flooredge,
 /area/almayer/squads/bravo)
 "xvL" = (
-/obj/structure/largecrate/random/barrel/black,
+/obj/structure/prop/structure_lattice{
+	density = 0;
+	desc = "This jukebox only takes quarters and you seem to be out of them at the moment.";
+	icon = 'icons/obj/structures/props/furniture/misc.dmi';
+	icon_state = "jukebox";
+	name = "Rockin Robin 2300 Jukebox";
+	pixel_x = -11;
+	pixel_y = 16
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
 "xvQ" = (
@@ -95408,11 +95402,6 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/upper/u_m_s)
 "xGJ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out";
-	pixel_x = 1;
-	pixel_y = 1
-	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 5
 	},
