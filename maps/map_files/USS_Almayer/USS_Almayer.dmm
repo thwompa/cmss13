@@ -67901,7 +67901,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/rack,
 /obj/item/storage/backpack/jima{
-	anchored = 1
+	anchored = 1;
+	name = "busted JIMA frame mount"
 	},
 /obj/structure/machinery/door_control{
 	id = "Support_Armory";
