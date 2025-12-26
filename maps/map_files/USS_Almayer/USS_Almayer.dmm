@@ -45031,6 +45031,24 @@
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/red/northwest,
 /area/almayer/lifeboat_pumps/south1)
+"dSw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning2";
+	layer = 3.33;
+	pixel_x = 1;
+	dir = 4
+	},
+/obj/structure/machinery/door_control{
+	id = "Support_Armory";
+	layer = 2.5;
+	name = "Shutters";
+	use_power = 0;
+	pixel_x = 8;
+	pixel_y = -21;
+	req_access_txt = "31"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/living/briefing)
 "dSB" = (
 /obj/structure/platform_decoration/metal/almayer/east,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -74176,12 +74194,6 @@
 /obj/item/bodybag/tarp/reactive,
 /obj/item/bodybag/tarp/reactive,
 /obj/item/bodybag/tarp/reactive,
-/obj/item/bodybag/tarp/reactive,
-/obj/item/bodybag/tarp/reactive,
-/obj/item/explosive/grenade/custom/metal_foam,
-/obj/item/explosive/grenade/custom/metal_foam,
-/obj/item/explosive/grenade/custom/metal_foam,
-/obj/item/explosive/grenade/custom/metal_foam,
 /obj/structure/machinery/light{
 	pixel_x = 16
 	},
@@ -96934,6 +96946,18 @@
 /obj/structure/sign/poster/corporate{
 	pixel_y = 5;
 	pixel_x = 24
+	},
+/obj/item/ashtray/glass{
+	pixel_x = 8;
+	pixel_y = -5
+	},
+/obj/item/trash/cigbutt/ucigbutt{
+	desc = "A handful of rounds to reload on the go.";
+	icon = 'icons/obj/items/weapons/guns/handful.dmi';
+	icon_state = "bullet_2";
+	name = "handful of pistol bullets (9mm)";
+	pixel_x = -6;
+	pixel_y = -3
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/briefing)
@@ -143592,7 +143616,7 @@ vgn
 bIJ
 xcd
 rdl
-ojo
+dSw
 xuM
 plv
 plv
