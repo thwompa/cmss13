@@ -44597,14 +44597,6 @@
 "dJJ" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/shipboard/brig/execution_storage)
-"dJM" = (
-/obj/structure/machinery/light/red{
-	light_color = "#BB3F3F";
-	dir = 8
-	},
-/obj/item/trash/popcorn,
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/maint/hull/lower/l_m_p)
 "dJO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -50792,6 +50784,14 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/hallways/lower/port_fore_hallway)
+"gox" = (
+/obj/structure/machinery/light/red{
+	light_color = "#BB3F3F";
+	dir = 8
+	},
+/obj/item/trash/popcorn,
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/maint/hull/lower/l_m_p)
 "goy" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/disposalpipe/segment{
@@ -53003,12 +53003,6 @@
 /obj/structure/platform/metal/almayer/west,
 /turf/open/floor/almayer/plating_striped/east,
 /area/almayer/hallways/lower/repair_bay)
-"hil" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stool,
-/obj/item/trash/cigbutt,
-/turf/open/floor/almayer/plate,
-/area/almayer/maint/hull/lower/l_m_p)
 "hiu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -53505,6 +53499,13 @@
 /obj/structure/machinery/door/airlock/almayer/maint,
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/shipboard/starboard_point_defense)
+"hrG" = (
+/obj/item/stool{
+	pixel_x = -15;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/maint/hull/lower/l_m_p)
 "hrI" = (
 /turf/open/floor/almayer,
 /area/almayer/maint/hull/upper/u_f_p)
@@ -71331,13 +71332,6 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/hallways/lower/port_umbilical)
-"oAh" = (
-/obj/item/stool{
-	pixel_x = -15;
-	pixel_y = 6
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/maint/hull/lower/l_m_p)
 "oAn" = (
 /obj/structure/cargo_container/uscm/sanfran/left{
 	pixel_y = 5
@@ -77130,6 +77124,12 @@
 	},
 /turf/open/floor/almayer/plating_stripedcorner/north,
 /area/almayer/hallways/lower/port_midship_hallway)
+"qNr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stool,
+/obj/item/trash/cigbutt,
+/turf/open/floor/almayer/plate,
+/area/almayer/maint/hull/lower/l_m_p)
 "qNI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -143441,7 +143441,7 @@ wRO
 lHG
 mgb
 idx
-oAh
+hrG
 nqO
 mJO
 jLH
@@ -143843,7 +143843,7 @@ knm
 sPY
 qPU
 mJO
-hil
+qNr
 mgb
 jFE
 mJO
@@ -144263,7 +144263,7 @@ kIL
 mJO
 mJO
 xaN
-dJM
+gox
 wRO
 uzL
 mJO
