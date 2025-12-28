@@ -44597,6 +44597,14 @@
 "dJJ" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/shipboard/brig/execution_storage)
+"dJM" = (
+/obj/structure/machinery/light/red{
+	light_color = "#BB3F3F";
+	dir = 8
+	},
+/obj/item/trash/popcorn,
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/maint/hull/lower/l_m_p)
 "dJO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -52995,6 +53003,12 @@
 /obj/structure/platform/metal/almayer/west,
 /turf/open/floor/almayer/plating_striped/east,
 /area/almayer/hallways/lower/repair_bay)
+"hil" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stool,
+/obj/item/trash/cigbutt,
+/turf/open/floor/almayer/plate,
+/area/almayer/maint/hull/lower/l_m_p)
 "hiu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -71317,6 +71331,13 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/hallways/lower/port_umbilical)
+"oAh" = (
+/obj/item/stool{
+	pixel_x = -15;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/almayer/maint/hull/lower/l_m_p)
 "oAn" = (
 /obj/structure/cargo_container/uscm/sanfran/left{
 	pixel_y = 5
@@ -82068,6 +82089,9 @@
 /area/almayer/lifeboat_pumps/south1)
 "sNb" = (
 /obj/structure/largecrate/random/secure,
+/obj/item/trash/crushed_cup{
+	pixel_y = 12
+	},
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/hull/lower/l_m_p)
 "sNk" = (
@@ -143417,7 +143441,7 @@ wRO
 lHG
 mgb
 idx
-mgb
+oAh
 nqO
 mJO
 jLH
@@ -143819,7 +143843,7 @@ knm
 sPY
 qPU
 mJO
-wRO
+hil
 mgb
 jFE
 mJO
@@ -144239,7 +144263,7 @@ kIL
 mJO
 mJO
 xaN
-loY
+dJM
 wRO
 uzL
 mJO
